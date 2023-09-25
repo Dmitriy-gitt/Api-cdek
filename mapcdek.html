@@ -1,0 +1,4806 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c62119bba96a6bbf7d15842c95995985 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c62119bba96a6bbf7d15842c95995985" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c62119bba96a6bbf7d15842c95995985 = L.map(
+                "map_c62119bba96a6bbf7d15842c95995985",
+                {
+                    center: [55.047874, 60.112206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ffd6e1381f777df0bc567ce45009394f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+            L.Control.geocoder(
+                {"collapsed": false, "defaultMarkGeocode": true, "position": "topright"}
+            ).on('markgeocode', function(e) {
+                map_c62119bba96a6bbf7d15842c95995985.setView(e.geocode.center, 11);
+            }).addTo(map_c62119bba96a6bbf7d15842c95995985);
+
+        
+    
+            var marker_b02f123e1433c1c695d9ba5b3fce6743 = L.marker(
+                [55.047874, 60.112206],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bc41962189d588699b258c7e72946677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_766096cb9524b4af38e9ff2ce3d7ab0c = $(`<div id="html_766096cb9524b4af38e9ff2ce3d7ab0c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bc41962189d588699b258c7e72946677.setContent(html_766096cb9524b4af38e9ff2ce3d7ab0c);
+            
+        
+
+        marker_b02f123e1433c1c695d9ba5b3fce6743.bindPopup(popup_bc41962189d588699b258c7e72946677)
+        ;
+
+        
+    
+    
+            marker_b02f123e1433c1c695d9ba5b3fce6743.bindTooltip(
+                `<div>
+                     456300, Россия, Челябинская область, Миасс, ул. Романенко, 93
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86f5ee5ed91dfcfba2292c01582afc66 = L.marker(
+                [55.168312, 59.67654],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_41d3228e3196eee68397b97c4aa62693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fb94d71774a5176473ba9fa97c9ee7e = $(`<div id="html_3fb94d71774a5176473ba9fa97c9ee7e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_41d3228e3196eee68397b97c4aa62693.setContent(html_3fb94d71774a5176473ba9fa97c9ee7e);
+            
+        
+
+        marker_86f5ee5ed91dfcfba2292c01582afc66.bindPopup(popup_41d3228e3196eee68397b97c4aa62693)
+        ;
+
+        
+    
+    
+            marker_86f5ee5ed91dfcfba2292c01582afc66.bindTooltip(
+                `<div>
+                     456200, Россия, Челябинская область, Златоуст, ул. Таганайская, 1Б
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_604eec05327d5161dab7755bac424bb5 = L.marker(
+                [55.129826, 59.723503],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_7f0e5519b9e0094f30314e90b66ead3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56f7e9edfe05ea21a7aec0ee34d9481f = $(`<div id="html_56f7e9edfe05ea21a7aec0ee34d9481f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_7f0e5519b9e0094f30314e90b66ead3a.setContent(html_56f7e9edfe05ea21a7aec0ee34d9481f);
+            
+        
+
+        marker_604eec05327d5161dab7755bac424bb5.bindPopup(popup_7f0e5519b9e0094f30314e90b66ead3a)
+        ;
+
+        
+    
+    
+            marker_604eec05327d5161dab7755bac424bb5.bindTooltip(
+                `<div>
+                     456238, Россия, Челябинская область, Златоуст, ул. Южно-Есаульская, 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74c043a7d2e728887d2d490340d101c7 = L.marker(
+                [55.164833, 61.409184],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_11aad5aa7e293fabc8f12df986e05747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ff59205fdbc826c85f82c5b241b207 = $(`<div id="html_60ff59205fdbc826c85f82c5b241b207" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_11aad5aa7e293fabc8f12df986e05747.setContent(html_60ff59205fdbc826c85f82c5b241b207);
+            
+        
+
+        marker_74c043a7d2e728887d2d490340d101c7.bindPopup(popup_11aad5aa7e293fabc8f12df986e05747)
+        ;
+
+        
+    
+    
+            marker_74c043a7d2e728887d2d490340d101c7.bindTooltip(
+                `<div>
+                     454091, Россия, Челябинская область, Челябинск, Ул. Пушкина, 25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a463226f5317c7d6abd18de20c43ed84 = L.marker(
+                [55.16029, 61.418957],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_9e8db6be66691268365d2d95f8002126 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64a018b493bf13953027bbe7e48f3c4c = $(`<div id="html_64a018b493bf13953027bbe7e48f3c4c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_9e8db6be66691268365d2d95f8002126.setContent(html_64a018b493bf13953027bbe7e48f3c4c);
+            
+        
+
+        marker_a463226f5317c7d6abd18de20c43ed84.bindPopup(popup_9e8db6be66691268365d2d95f8002126)
+        ;
+
+        
+    
+    
+            marker_a463226f5317c7d6abd18de20c43ed84.bindTooltip(
+                `<div>
+                     454090, Россия, Челябинская область, Челябинск, Ленина, 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_759d43fc31cf8b5ad14e2d106915f455 = L.marker(
+                [55.18617, 61.288486],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_9d0906cbcee3a37b1133d9832b1522c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0e7ca9f1594d7aedfc7fe4d72a16126 = $(`<div id="html_f0e7ca9f1594d7aedfc7fe4d72a16126" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_9d0906cbcee3a37b1133d9832b1522c5.setContent(html_f0e7ca9f1594d7aedfc7fe4d72a16126);
+            
+        
+
+        marker_759d43fc31cf8b5ad14e2d106915f455.bindPopup(popup_9d0906cbcee3a37b1133d9832b1522c5)
+        ;
+
+        
+    
+    
+            marker_759d43fc31cf8b5ad14e2d106915f455.bindTooltip(
+                `<div>
+                     454100, Россия, Челябинская область, Челябинск, ул. Чичерина, 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da595d9ffa189662722a9274c003d439 = L.marker(
+                [55.15801, 61.38537],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_815b4d05ded5af6aaca3ceb9d5c3ec96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a61c6f785c5c218d06e42f40bc22183 = $(`<div id="html_8a61c6f785c5c218d06e42f40bc22183" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_815b4d05ded5af6aaca3ceb9d5c3ec96.setContent(html_8a61c6f785c5c218d06e42f40bc22183);
+            
+        
+
+        marker_da595d9ffa189662722a9274c003d439.bindPopup(popup_815b4d05ded5af6aaca3ceb9d5c3ec96)
+        ;
+
+        
+    
+    
+            marker_da595d9ffa189662722a9274c003d439.bindTooltip(
+                `<div>
+                     454080, Россия, Челябинская область, Челябинск, ул. Сони Кривой, 38, 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a0df736c985b800b676f41e285cf803 = L.marker(
+                [55.178043, 61.327255],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b6587f20abe4d3084861ff68d3d35f7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d42bb44ad929968a8ec43fe6d65322a = $(`<div id="html_0d42bb44ad929968a8ec43fe6d65322a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b6587f20abe4d3084861ff68d3d35f7a.setContent(html_0d42bb44ad929968a8ec43fe6d65322a);
+            
+        
+
+        marker_0a0df736c985b800b676f41e285cf803.bindPopup(popup_b6587f20abe4d3084861ff68d3d35f7a)
+        ;
+
+        
+    
+    
+            marker_0a0df736c985b800b676f41e285cf803.bindTooltip(
+                `<div>
+                     454136, Россия, Челябинская область, Челябинск, ул. Братьев Кашириных, 119
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9ed50c340c97d4365456ceb795e1487 = L.marker(
+                [55.241776, 61.382896],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_fd19d8b627e749764dbf2420907ba107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41409f6a8aa9a8b1f6c4ad801afde7ab = $(`<div id="html_41409f6a8aa9a8b1f6c4ad801afde7ab" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_fd19d8b627e749764dbf2420907ba107.setContent(html_41409f6a8aa9a8b1f6c4ad801afde7ab);
+            
+        
+
+        marker_e9ed50c340c97d4365456ceb795e1487.bindPopup(popup_fd19d8b627e749764dbf2420907ba107)
+        ;
+
+        
+    
+    
+            marker_e9ed50c340c97d4365456ceb795e1487.bindTooltip(
+                `<div>
+                     454031, Россия, Челябинская область, Челябинск, ул. 50-летия ВЛКСМ, 20
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8068e16beb7641eef35f51c80a87e0f = L.marker(
+                [55.19401, 61.315712],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_89d642fd5064a45beeca9c1f0310401a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ddb98e9f4d8c51689733ca675c7dd4 = $(`<div id="html_31ddb98e9f4d8c51689733ca675c7dd4" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_89d642fd5064a45beeca9c1f0310401a.setContent(html_31ddb98e9f4d8c51689733ca675c7dd4);
+            
+        
+
+        marker_c8068e16beb7641eef35f51c80a87e0f.bindPopup(popup_89d642fd5064a45beeca9c1f0310401a)
+        ;
+
+        
+    
+    
+            marker_c8068e16beb7641eef35f51c80a87e0f.bindTooltip(
+                `<div>
+                     454021, Россия, Челябинская область, Челябинск, пр-т Комсомольский, 69
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8721fbbd41a797563d3fd66087fd711f = L.marker(
+                [55.19262, 61.37882],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_aa3bf575880995c6b1164a39d15e2065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf27859b37792a7be81f9d605d044be7 = $(`<div id="html_cf27859b37792a7be81f9d605d044be7" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_aa3bf575880995c6b1164a39d15e2065.setContent(html_cf27859b37792a7be81f9d605d044be7);
+            
+        
+
+        marker_8721fbbd41a797563d3fd66087fd711f.bindPopup(popup_aa3bf575880995c6b1164a39d15e2065)
+        ;
+
+        
+    
+    
+            marker_8721fbbd41a797563d3fd66087fd711f.bindTooltip(
+                `<div>
+                     454008, Россия, Челябинская область, Челябинск, пр-т Комсомольский, 10 г
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d60d3d9f645763ccc5750831b70e87b = L.marker(
+                [55.204426, 61.283306],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b07c06aab99a1cdd255920bf3c45a856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa55c36d087fe1f58324a5e39a341f71 = $(`<div id="html_aa55c36d087fe1f58324a5e39a341f71" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b07c06aab99a1cdd255920bf3c45a856.setContent(html_aa55c36d087fe1f58324a5e39a341f71);
+            
+        
+
+        marker_3d60d3d9f645763ccc5750831b70e87b.bindPopup(popup_b07c06aab99a1cdd255920bf3c45a856)
+        ;
+
+        
+    
+    
+            marker_3d60d3d9f645763ccc5750831b70e87b.bindTooltip(
+                `<div>
+                     454000, Россия, Челябинская область, Челябинск, ул. Бейвеля, 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8c8636922f175e8ebceb7165f80214c = L.marker(
+                [55.143616, 61.412888],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8e7cbe86e9e745ed426e5ee0475a1905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b78d776eef64cac1f6fcdbd3b8c979 = $(`<div id="html_33b78d776eef64cac1f6fcdbd3b8c979" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8e7cbe86e9e745ed426e5ee0475a1905.setContent(html_33b78d776eef64cac1f6fcdbd3b8c979);
+            
+        
+
+        marker_a8c8636922f175e8ebceb7165f80214c.bindPopup(popup_8e7cbe86e9e745ed426e5ee0475a1905)
+        ;
+
+        
+    
+    
+            marker_a8c8636922f175e8ebceb7165f80214c.bindTooltip(
+                `<div>
+                     454091, Россия, Челябинская область, Челябинск, ул. Цвиллинга, 90
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_749e88831274ff91b2b701aeabdd8442 = L.marker(
+                [55.18226, 61.386463],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_aff2deae2a5250a8b4674f042ae18200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aad7404bd876e982e867805d490c2802 = $(`<div id="html_aad7404bd876e982e867805d490c2802" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_aff2deae2a5250a8b4674f042ae18200.setContent(html_aad7404bd876e982e867805d490c2802);
+            
+        
+
+        marker_749e88831274ff91b2b701aeabdd8442.bindPopup(popup_aff2deae2a5250a8b4674f042ae18200)
+        ;
+
+        
+    
+    
+            marker_749e88831274ff91b2b701aeabdd8442.bindTooltip(
+                `<div>
+                     454008, Россия, Челябинская область, Челябинск, пр-т Свердловский, 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cae7c1f6538f7f4867ead31726340e4 = L.marker(
+                [55.16436, 61.28971],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8c0feb9443e04072ee13f58364c4591c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4aafab73f174f611917b846a12c24d = $(`<div id="html_ba4aafab73f174f611917b846a12c24d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8c0feb9443e04072ee13f58364c4591c.setContent(html_ba4aafab73f174f611917b846a12c24d);
+            
+        
+
+        marker_8cae7c1f6538f7f4867ead31726340e4.bindPopup(popup_8c0feb9443e04072ee13f58364c4591c)
+        ;
+
+        
+    
+    
+            marker_8cae7c1f6538f7f4867ead31726340e4.bindTooltip(
+                `<div>
+                     454004, Россия, Челябинская область, Челябинск, ул. Академика Королёва, 44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d16fe61e2e3931bc835ae10184c2fb2 = L.marker(
+                [55.129726, 61.43437],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_57319e8a4f52177f3e2f2de3d197337c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_057d5223b05240cc0a5a8464698f465a = $(`<div id="html_057d5223b05240cc0a5a8464698f465a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_57319e8a4f52177f3e2f2de3d197337c.setContent(html_057d5223b05240cc0a5a8464698f465a);
+            
+        
+
+        marker_3d16fe61e2e3931bc835ae10184c2fb2.bindPopup(popup_57319e8a4f52177f3e2f2de3d197337c)
+        ;
+
+        
+    
+    
+            marker_3d16fe61e2e3931bc835ae10184c2fb2.bindTooltip(
+                `<div>
+                     454078, Россия, Челябинская область, Челябинск, ул. Гагарина, 38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eef9fe950d2853f8b5ad6c15cb68c879 = L.marker(
+                [55.19313, 61.348133],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_989186a7e20ce047bfdf490567fbac49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b6656468296471210ef47296a7bf62f = $(`<div id="html_8b6656468296471210ef47296a7bf62f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_989186a7e20ce047bfdf490567fbac49.setContent(html_8b6656468296471210ef47296a7bf62f);
+            
+        
+
+        marker_eef9fe950d2853f8b5ad6c15cb68c879.bindPopup(popup_989186a7e20ce047bfdf490567fbac49)
+        ;
+
+        
+    
+    
+            marker_eef9fe950d2853f8b5ad6c15cb68c879.bindTooltip(
+                `<div>
+                     454138, Россия, Челябинская область, Челябинск, ул. Пионерская, 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0845f1756c995c5fb419a4aa3d927036 = L.marker(
+                [55.113953, 61.35111],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_0497cd96006fc2e7a909062567ab2120 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e64a7cd5f1cc6a868e10c8833aabf06 = $(`<div id="html_1e64a7cd5f1cc6a868e10c8833aabf06" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_0497cd96006fc2e7a909062567ab2120.setContent(html_1e64a7cd5f1cc6a868e10c8833aabf06);
+            
+        
+
+        marker_0845f1756c995c5fb419a4aa3d927036.bindPopup(popup_0497cd96006fc2e7a909062567ab2120)
+        ;
+
+        
+    
+    
+            marker_0845f1756c995c5fb419a4aa3d927036.bindTooltip(
+                `<div>
+                     454000, Россия, Челябинская область, Челябинск, ул. Толбухина, 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b915cc538e50a694ef3d6d05b71b298a = L.marker(
+                [55.173965, 61.456326],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ef5e535e304cf366584028e718457dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b3ee9f379e897fc001bfbed557deaeb = $(`<div id="html_1b3ee9f379e897fc001bfbed557deaeb" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ef5e535e304cf366584028e718457dbe.setContent(html_1b3ee9f379e897fc001bfbed557deaeb);
+            
+        
+
+        marker_b915cc538e50a694ef3d6d05b71b298a.bindPopup(popup_ef5e535e304cf366584028e718457dbe)
+        ;
+
+        
+    
+    
+            marker_b915cc538e50a694ef3d6d05b71b298a.bindTooltip(
+                `<div>
+                     454071, Россия, Челябинская область, Челябинск, ул. Комарова, 137
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa71cb68e12168a9216f2b500b4f3a62 = L.marker(
+                [55.177917, 61.359413],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ece47972e24f04d4adbd321de33d8fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f775b3cf5b27a4cddb3d6f38fb67f2fa = $(`<div id="html_f775b3cf5b27a4cddb3d6f38fb67f2fa" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ece47972e24f04d4adbd321de33d8fa3.setContent(html_f775b3cf5b27a4cddb3d6f38fb67f2fa);
+            
+        
+
+        marker_fa71cb68e12168a9216f2b500b4f3a62.bindPopup(popup_ece47972e24f04d4adbd321de33d8fa3)
+        ;
+
+        
+    
+    
+            marker_fa71cb68e12168a9216f2b500b4f3a62.bindTooltip(
+                `<div>
+                     454000, Россия, Челябинская область, Челябинск, ул.Братьев Кашириных, 95
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d620a03b6dbb2526a3ccd30552f997f = L.marker(
+                [55.16208, 61.38031],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_0bfc3e7dbf2983b82563eefe339c2bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35250b4c879d72061b402904a4780be3 = $(`<div id="html_35250b4c879d72061b402904a4780be3" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_0bfc3e7dbf2983b82563eefe339c2bc4.setContent(html_35250b4c879d72061b402904a4780be3);
+            
+        
+
+        marker_0d620a03b6dbb2526a3ccd30552f997f.bindPopup(popup_0bfc3e7dbf2983b82563eefe339c2bc4)
+        ;
+
+        
+    
+    
+            marker_0d620a03b6dbb2526a3ccd30552f997f.bindTooltip(
+                `<div>
+                     454080, Россия, Челябинская область, Челябинск, ул. Энгельса, 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e24246e1dc25df1d727718ba4f1a84f = L.marker(
+                [55.147964, 61.37794],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_06afd145088b76905ce416e2406cc56b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fde27722f5f8659151312d89a0b56d6 = $(`<div id="html_8fde27722f5f8659151312d89a0b56d6" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_06afd145088b76905ce416e2406cc56b.setContent(html_8fde27722f5f8659151312d89a0b56d6);
+            
+        
+
+        marker_1e24246e1dc25df1d727718ba4f1a84f.bindPopup(popup_06afd145088b76905ce416e2406cc56b)
+        ;
+
+        
+    
+    
+            marker_1e24246e1dc25df1d727718ba4f1a84f.bindTooltip(
+                `<div>
+                     454020, Россия, Челябинская область, Челябинск, ул. Худякова, 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0c7fb705b9376089ab30169ce026d5b = L.marker(
+                [55.732174, 37.66371],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_5442ea442450318a1f165180990c8d35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48fbd385d134dfe647fa7cf69d7085b1 = $(`<div id="html_48fbd385d134dfe647fa7cf69d7085b1" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_5442ea442450318a1f165180990c8d35.setContent(html_48fbd385d134dfe647fa7cf69d7085b1);
+            
+        
+
+        marker_c0c7fb705b9376089ab30169ce026d5b.bindPopup(popup_5442ea442450318a1f165180990c8d35)
+        ;
+
+        
+    
+    
+            marker_c0c7fb705b9376089ab30169ce026d5b.bindTooltip(
+                `<div>
+                     109044, Россия, Москва, Москва, ул. Динамовская, 1А, 110а
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cc5f8d3cd083ef1ed29778d847bb4ab = L.marker(
+                [55.64042, 37.61026],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_1ea12d005e28b4c630cb718d1d87c5c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_106a52a9759b59a3dd2b56ecb4ca76f6 = $(`<div id="html_106a52a9759b59a3dd2b56ecb4ca76f6" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_1ea12d005e28b4c630cb718d1d87c5c7.setContent(html_106a52a9759b59a3dd2b56ecb4ca76f6);
+            
+        
+
+        marker_0cc5f8d3cd083ef1ed29778d847bb4ab.bindPopup(popup_1ea12d005e28b4c630cb718d1d87c5c7)
+        ;
+
+        
+    
+    
+            marker_0cc5f8d3cd083ef1ed29778d847bb4ab.bindTooltip(
+                `<div>
+                     117639, Россия, Москва, Москва, пр-т Балаклавский, 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b20d67943743ad83aae3059cd87c9555 = L.marker(
+                [55.701103, 37.580803],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ed6ddf379bc9c26d6b99d3ce3b7682b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a036e306430c99b4103baf910084a7e1 = $(`<div id="html_a036e306430c99b4103baf910084a7e1" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ed6ddf379bc9c26d6b99d3ce3b7682b9.setContent(html_a036e306430c99b4103baf910084a7e1);
+            
+        
+
+        marker_b20d67943743ad83aae3059cd87c9555.bindPopup(popup_ed6ddf379bc9c26d6b99d3ce3b7682b9)
+        ;
+
+        
+    
+    
+            marker_b20d67943743ad83aae3059cd87c9555.bindTooltip(
+                `<div>
+                     117312, Россия, Москва, Москва, ул. Вавилова, 17а
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c3e8732cd9e7aa46d7dd80eb2d806e2 = L.marker(
+                [55.63197, 37.768177],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_97f5b40a80892e75c25ac2dc49efbe1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cc24541358e358680faaed6bac7dcc3 = $(`<div id="html_9cc24541358e358680faaed6bac7dcc3" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_97f5b40a80892e75c25ac2dc49efbe1e.setContent(html_9cc24541358e358680faaed6bac7dcc3);
+            
+        
+
+        marker_3c3e8732cd9e7aa46d7dd80eb2d806e2.bindPopup(popup_97f5b40a80892e75c25ac2dc49efbe1e)
+        ;
+
+        
+    
+    
+            marker_3c3e8732cd9e7aa46d7dd80eb2d806e2.bindTooltip(
+                `<div>
+                     115408, Россия, Москва, Москва, ул. Братеевская, 16, корп.6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b55b3b8e12a3cc112ec978c8836d680d = L.marker(
+                [55.71861, 37.806255],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ef734559a6667b9d4e05b59f424d9c41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e18f769b280e22aa7eec09658e455685 = $(`<div id="html_e18f769b280e22aa7eec09658e455685" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ef734559a6667b9d4e05b59f424d9c41.setContent(html_e18f769b280e22aa7eec09658e455685);
+            
+        
+
+        marker_b55b3b8e12a3cc112ec978c8836d680d.bindPopup(popup_ef734559a6667b9d4e05b59f424d9c41)
+        ;
+
+        
+    
+    
+            marker_b55b3b8e12a3cc112ec978c8836d680d.bindTooltip(
+                `<div>
+                     109542, Россия, Москва, Москва, ул. Хлобыстова, 14 корп. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24a014f880e56c6a55825404946aedc0 = L.marker(
+                [55.719936, 37.41998],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c96ccfd7ed05266fe72dfa41e8c3744d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3312217eb42cdf5051c2a54f32e2a061 = $(`<div id="html_3312217eb42cdf5051c2a54f32e2a061" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c96ccfd7ed05266fe72dfa41e8c3744d.setContent(html_3312217eb42cdf5051c2a54f32e2a061);
+            
+        
+
+        marker_24a014f880e56c6a55825404946aedc0.bindPopup(popup_c96ccfd7ed05266fe72dfa41e8c3744d)
+        ;
+
+        
+    
+    
+            marker_24a014f880e56c6a55825404946aedc0.bindTooltip(
+                `<div>
+                     121354, Россия, Москва, Москва, ш. Можайское , 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a443692bbfcc7637a374af45ed7d95a8 = L.marker(
+                [55.767883, 37.83114],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_0bee73a48601709d64e19363061e6e18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e5d66aa109d1b0be359c3db19be2a81 = $(`<div id="html_2e5d66aa109d1b0be359c3db19be2a81" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_0bee73a48601709d64e19363061e6e18.setContent(html_2e5d66aa109d1b0be359c3db19be2a81);
+            
+        
+
+        marker_a443692bbfcc7637a374af45ed7d95a8.bindPopup(popup_0bee73a48601709d64e19363061e6e18)
+        ;
+
+        
+    
+    
+            marker_a443692bbfcc7637a374af45ed7d95a8.bindTooltip(
+                `<div>
+                     111531, Россия, Москва, Москва, ул.  Саянская, 7 к. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afc8d81235361e010bc6cb8670fc90f4 = L.marker(
+                [55.72548, 37.634056],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_010b6036040232f8b5d05c6daa664ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_369cb5643ae2a69b66bf3cceadb853df = $(`<div id="html_369cb5643ae2a69b66bf3cceadb853df" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_010b6036040232f8b5d05c6daa664ce8.setContent(html_369cb5643ae2a69b66bf3cceadb853df);
+            
+        
+
+        marker_afc8d81235361e010bc6cb8670fc90f4.bindPopup(popup_010b6036040232f8b5d05c6daa664ce8)
+        ;
+
+        
+    
+    
+            marker_afc8d81235361e010bc6cb8670fc90f4.bindTooltip(
+                `<div>
+                     115054, Россия, Москва, Москва, ул. Большая Пионерская, 40, строение 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcf9ebdae08038a411d3f643b72f1d04 = L.marker(
+                [55.741577, 37.657845],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f350acad670313bafafae6d98b973c77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0a9fd1cf1afeed6004b02d2bc86e779 = $(`<div id="html_c0a9fd1cf1afeed6004b02d2bc86e779" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f350acad670313bafafae6d98b973c77.setContent(html_c0a9fd1cf1afeed6004b02d2bc86e779);
+            
+        
+
+        marker_bcf9ebdae08038a411d3f643b72f1d04.bindPopup(popup_f350acad670313bafafae6d98b973c77)
+        ;
+
+        
+    
+    
+            marker_bcf9ebdae08038a411d3f643b72f1d04.bindTooltip(
+                `<div>
+                     109004, Россия, Москва, Москва, пер. Товарищеский , 1, стр. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5283fe9af8d8249bb67711050650ae0a = L.marker(
+                [55.87917, 37.611214],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ab5b7ea17d0743ffb0372de7ff62eb0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2517e14d9fd03040c9c92768565230e1 = $(`<div id="html_2517e14d9fd03040c9c92768565230e1" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ab5b7ea17d0743ffb0372de7ff62eb0d.setContent(html_2517e14d9fd03040c9c92768565230e1);
+            
+        
+
+        marker_5283fe9af8d8249bb67711050650ae0a.bindPopup(popup_ab5b7ea17d0743ffb0372de7ff62eb0d)
+        ;
+
+        
+    
+    
+            marker_5283fe9af8d8249bb67711050650ae0a.bindTooltip(
+                `<div>
+                     127566, Россия, Москва, Москва, пр. Юрловский, 14, корп.4, 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a1e82f6b5755de68f5d68d8fbd875a6 = L.marker(
+                [55.80529, 37.461445],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bf1ebb7c7fd7bc8a6832800f0aec3ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31cc6ea751aaca25643d4b1a8fcb8f2e = $(`<div id="html_31cc6ea751aaca25643d4b1a8fcb8f2e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bf1ebb7c7fd7bc8a6832800f0aec3ee0.setContent(html_31cc6ea751aaca25643d4b1a8fcb8f2e);
+            
+        
+
+        marker_5a1e82f6b5755de68f5d68d8fbd875a6.bindPopup(popup_bf1ebb7c7fd7bc8a6832800f0aec3ee0)
+        ;
+
+        
+    
+    
+            marker_5a1e82f6b5755de68f5d68d8fbd875a6.bindTooltip(
+                `<div>
+                     123098, Россия, Москва, Москва, ул. Маршала Новикова, 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b0bfb97bd584184bfa3b06f57059a7f = L.marker(
+                [55.654938, 37.75635],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_08249637db0a27953ac58f1f1db25670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6931a4ce5bddd7b7886bd3813f47e21d = $(`<div id="html_6931a4ce5bddd7b7886bd3813f47e21d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_08249637db0a27953ac58f1f1db25670.setContent(html_6931a4ce5bddd7b7886bd3813f47e21d);
+            
+        
+
+        marker_8b0bfb97bd584184bfa3b06f57059a7f.bindPopup(popup_08249637db0a27953ac58f1f1db25670)
+        ;
+
+        
+    
+    
+            marker_8b0bfb97bd584184bfa3b06f57059a7f.bindTooltip(
+                `<div>
+                     109451, Россия, Москва, Москва, б-р Мячковский, 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0fcda9bd2dd546945496189f62b52df = L.marker(
+                [55.795494, 37.594585],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_3d79c65584c3f3590a39ecd2c41da275 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4323add022e13a5cec8d35182dfad22e = $(`<div id="html_4323add022e13a5cec8d35182dfad22e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_3d79c65584c3f3590a39ecd2c41da275.setContent(html_4323add022e13a5cec8d35182dfad22e);
+            
+        
+
+        marker_f0fcda9bd2dd546945496189f62b52df.bindPopup(popup_3d79c65584c3f3590a39ecd2c41da275)
+        ;
+
+        
+    
+    
+            marker_f0fcda9bd2dd546945496189f62b52df.bindTooltip(
+                `<div>
+                     127018, Россия, Москва, Москва, ул. Сущевский вал, 5, стр 15, 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ef7c3942e657e36b361f5c7a053ccde = L.marker(
+                [55.81258, 37.645653],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8c05924efad63d5086e258af229a5ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_224cdf504f772569819e65f366b4e1a8 = $(`<div id="html_224cdf504f772569819e65f366b4e1a8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8c05924efad63d5086e258af229a5ef4.setContent(html_224cdf504f772569819e65f366b4e1a8);
+            
+        
+
+        marker_7ef7c3942e657e36b361f5c7a053ccde.bindPopup(popup_8c05924efad63d5086e258af229a5ef4)
+        ;
+
+        
+    
+    
+            marker_7ef7c3942e657e36b361f5c7a053ccde.bindTooltip(
+                `<div>
+                     129164, Россия, Москва, Москва, ул. Маломосковская, 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44b47206d77d68ce726c24215c36868c = L.marker(
+                [55.740494, 37.499786],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ddb9722faa8b52cf55d1010a6fd32a2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e2d6007a45bef10600a4947ed9f686f = $(`<div id="html_1e2d6007a45bef10600a4947ed9f686f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ddb9722faa8b52cf55d1010a6fd32a2a.setContent(html_1e2d6007a45bef10600a4947ed9f686f);
+            
+        
+
+        marker_44b47206d77d68ce726c24215c36868c.bindPopup(popup_ddb9722faa8b52cf55d1010a6fd32a2a)
+        ;
+
+        
+    
+    
+            marker_44b47206d77d68ce726c24215c36868c.bindTooltip(
+                `<div>
+                     121096, Россия, Москва, Москва, ул. Барклая, 7/1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42d27987228e3f610f9671482f8e2bb1 = L.marker(
+                [55.67869, 37.453217],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_143d32cfb9ece6daff04b387c6d8a748 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6da3014f4bd59771d210d0e93bd7526a = $(`<div id="html_6da3014f4bd59771d210d0e93bd7526a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_143d32cfb9ece6daff04b387c6d8a748.setContent(html_6da3014f4bd59771d210d0e93bd7526a);
+            
+        
+
+        marker_42d27987228e3f610f9671482f8e2bb1.bindPopup(popup_143d32cfb9ece6daff04b387c6d8a748)
+        ;
+
+        
+    
+    
+            marker_42d27987228e3f610f9671482f8e2bb1.bindTooltip(
+                `<div>
+                     119361, Россия, Москва, Москва, ул. Марии Поливановой, 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0047ab5a6accf135f6f11068df37f25 = L.marker(
+                [55.81087, 37.718334],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_e85a700ff567c195c051b9fe9a4db2ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa86ff836f9a142166b175956dba3f62 = $(`<div id="html_aa86ff836f9a142166b175956dba3f62" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_e85a700ff567c195c051b9fe9a4db2ba.setContent(html_aa86ff836f9a142166b175956dba3f62);
+            
+        
+
+        marker_c0047ab5a6accf135f6f11068df37f25.bindPopup(popup_e85a700ff567c195c051b9fe9a4db2ba)
+        ;
+
+        
+    
+    
+            marker_c0047ab5a6accf135f6f11068df37f25.bindTooltip(
+                `<div>
+                     107370, Россия, Москва, Москва, ул. Бойцовая, 8с3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8757360ad46381a717bce80c20036e4c = L.marker(
+                [55.708614, 37.484795],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c4c78c17152d5eb5f15fe679f8e2c636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa080a0d06d4686d12f452efd546c7a7 = $(`<div id="html_fa080a0d06d4686d12f452efd546c7a7" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c4c78c17152d5eb5f15fe679f8e2c636.setContent(html_fa080a0d06d4686d12f452efd546c7a7);
+            
+        
+
+        marker_8757360ad46381a717bce80c20036e4c.bindPopup(popup_c4c78c17152d5eb5f15fe679f8e2c636)
+        ;
+
+        
+    
+    
+            marker_8757360ad46381a717bce80c20036e4c.bindTooltip(
+                `<div>
+                     119501, Россия, Москва, Москва, ул. Веерная, 24Г
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a32b0dbdd52c1bb6525331c2b0b2ebb = L.marker(
+                [55.77863, 37.582745],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d5353a88518bc163cd2b60bd6afc1d33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a3065aa8fb12dca3c7efa62bdcda652 = $(`<div id="html_0a3065aa8fb12dca3c7efa62bdcda652" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d5353a88518bc163cd2b60bd6afc1d33.setContent(html_0a3065aa8fb12dca3c7efa62bdcda652);
+            
+        
+
+        marker_3a32b0dbdd52c1bb6525331c2b0b2ebb.bindPopup(popup_d5353a88518bc163cd2b60bd6afc1d33)
+        ;
+
+        
+    
+    
+            marker_3a32b0dbdd52c1bb6525331c2b0b2ebb.bindTooltip(
+                `<div>
+                     125040, Россия, Москва, Москва, пр-т Ленинградский, 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efe88df1ec30e3ff0a24a9039b623dee = L.marker(
+                [55.62579, 37.59505],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_1b5947f1324f24adf89e10a0e5f76613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dfff6fc312012dfe2cab760720dc522 = $(`<div id="html_7dfff6fc312012dfe2cab760720dc522" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_1b5947f1324f24adf89e10a0e5f76613.setContent(html_7dfff6fc312012dfe2cab760720dc522);
+            
+        
+
+        marker_efe88df1ec30e3ff0a24a9039b623dee.bindPopup(popup_1b5947f1324f24adf89e10a0e5f76613)
+        ;
+
+        
+    
+    
+            marker_efe88df1ec30e3ff0a24a9039b623dee.bindTooltip(
+                `<div>
+                     117525, Россия, Москва, Москва, ул.Чертановская, 20, корп.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8ffabcc522b1a06c3c511fb849380db = L.marker(
+                [55.70708, 37.654457],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_be429a288d940ac6d2317cf2cf38bcc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bc39a60f0fac94b18395877e357c500 = $(`<div id="html_6bc39a60f0fac94b18395877e357c500" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_be429a288d940ac6d2317cf2cf38bcc0.setContent(html_6bc39a60f0fac94b18395877e357c500);
+            
+        
+
+        marker_e8ffabcc522b1a06c3c511fb849380db.bindPopup(popup_be429a288d940ac6d2317cf2cf38bcc0)
+        ;
+
+        
+    
+    
+            marker_e8ffabcc522b1a06c3c511fb849380db.bindTooltip(
+                `<div>
+                     115280, Россия, Москва, Москва, ул. Автозаводский 3-й проезд, 4 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61bba2c0ec58b9485c94e034cef89be1 = L.marker(
+                [55.702377, 37.848312],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_03469fa55f837d5bbc4ed34b8c94f49a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282cfada25051a68cbea511dd01d0473 = $(`<div id="html_282cfada25051a68cbea511dd01d0473" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_03469fa55f837d5bbc4ed34b8c94f49a.setContent(html_282cfada25051a68cbea511dd01d0473);
+            
+        
+
+        marker_61bba2c0ec58b9485c94e034cef89be1.bindPopup(popup_03469fa55f837d5bbc4ed34b8c94f49a)
+        ;
+
+        
+    
+    
+            marker_61bba2c0ec58b9485c94e034cef89be1.bindTooltip(
+                `<div>
+                     109145, Россия, Москва, Москва, ул. Лермонтовский пр-т., 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0352288e3cd23be62890a0f04e0211a8 = L.marker(
+                [55.683064, 37.666206],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_91ee5d44491984829bddf348369e0333 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26d04c14c2aa1ce0443500c95408ebc2 = $(`<div id="html_26d04c14c2aa1ce0443500c95408ebc2" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_91ee5d44491984829bddf348369e0333.setContent(html_26d04c14c2aa1ce0443500c95408ebc2);
+            
+        
+
+        marker_0352288e3cd23be62890a0f04e0211a8.bindPopup(popup_91ee5d44491984829bddf348369e0333)
+        ;
+
+        
+    
+    
+            marker_0352288e3cd23be62890a0f04e0211a8.bindTooltip(
+                `<div>
+                     115470, Россия, Москва, Москва, пр-т Андропова, 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f9dfe5cdf710d3dfa2450af3bd7848a = L.marker(
+                [55.893406, 37.655678],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_0b2b70d9803a3b1cfbc913629f5a0e3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74917965b47abbc61471277737d2b30f = $(`<div id="html_74917965b47abbc61471277737d2b30f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_0b2b70d9803a3b1cfbc913629f5a0e3f.setContent(html_74917965b47abbc61471277737d2b30f);
+            
+        
+
+        marker_2f9dfe5cdf710d3dfa2450af3bd7848a.bindPopup(popup_0b2b70d9803a3b1cfbc913629f5a0e3f)
+        ;
+
+        
+    
+    
+            marker_2f9dfe5cdf710d3dfa2450af3bd7848a.bindTooltip(
+                `<div>
+                     127282, Россия, Москва, Москва, пр. Студеный, 4, корп.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb66b54547cfd5e3ff03c67301768439 = L.marker(
+                [55.77667, 37.65301],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_5a021488a45a706b8bc7ee8fbfa881a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fca1acbb02ee4cd804ca4a71b001605a = $(`<div id="html_fca1acbb02ee4cd804ca4a71b001605a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_5a021488a45a706b8bc7ee8fbfa881a3.setContent(html_fca1acbb02ee4cd804ca4a71b001605a);
+            
+        
+
+        marker_eb66b54547cfd5e3ff03c67301768439.bindPopup(popup_5a021488a45a706b8bc7ee8fbfa881a3)
+        ;
+
+        
+    
+    
+            marker_eb66b54547cfd5e3ff03c67301768439.bindTooltip(
+                `<div>
+                     107140, Россия, Москва, Москва, пл. Комсомольская, 1а, стр.1, 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2288a4c6ce8e15bc95f6054975b2bce5 = L.marker(
+                [55.59252, 37.612488],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_057a46c886ef09d76ae26f8608b3191f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_017129a834d4853b83a57218f57695be = $(`<div id="html_017129a834d4853b83a57218f57695be" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_057a46c886ef09d76ae26f8608b3191f.setContent(html_017129a834d4853b83a57218f57695be);
+            
+        
+
+        marker_2288a4c6ce8e15bc95f6054975b2bce5.bindPopup(popup_057a46c886ef09d76ae26f8608b3191f)
+        ;
+
+        
+    
+    
+            marker_2288a4c6ce8e15bc95f6054975b2bce5.bindTooltip(
+                `<div>
+                     117535, Россия, Москва, Москва, ул. Россошанская, 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00683a702384ef13e3cb036f75ade969 = L.marker(
+                [55.708195, 37.61569],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_a21d88d372dc1dfcf17f2a89c6f21709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3c697944c720975c0df63adf662a25 = $(`<div id="html_ad3c697944c720975c0df63adf662a25" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_a21d88d372dc1dfcf17f2a89c6f21709.setContent(html_ad3c697944c720975c0df63adf662a25);
+            
+        
+
+        marker_00683a702384ef13e3cb036f75ade969.bindPopup(popup_a21d88d372dc1dfcf17f2a89c6f21709)
+        ;
+
+        
+    
+    
+            marker_00683a702384ef13e3cb036f75ade969.bindTooltip(
+                `<div>
+                     115191, Россия, Москва, Москва, пр. 6-й Рощинский, 1, стр.4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52dd33d9f59fe74be636b90cae68118c = L.marker(
+                [55.712, 37.732727],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_4ca717588a2237d1b67cfdfdcff12f53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed11e6f31f4de2fb1cf5b992f1281e1b = $(`<div id="html_ed11e6f31f4de2fb1cf5b992f1281e1b" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_4ca717588a2237d1b67cfdfdcff12f53.setContent(html_ed11e6f31f4de2fb1cf5b992f1281e1b);
+            
+        
+
+        marker_52dd33d9f59fe74be636b90cae68118c.bindPopup(popup_4ca717588a2237d1b67cfdfdcff12f53)
+        ;
+
+        
+    
+    
+            marker_52dd33d9f59fe74be636b90cae68118c.bindTooltip(
+                `<div>
+                     109125, Россия, Москва, Москва, ул. Люблинская, 9, стр.3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b84bd8cfa8ef8e71a6c8a6f91ecadbf = L.marker(
+                [55.688953, 37.54976],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8a1ce9cd2b3c88cedcde5fb9fc763ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_126e772460beee97e39db3869b7bc58f = $(`<div id="html_126e772460beee97e39db3869b7bc58f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8a1ce9cd2b3c88cedcde5fb9fc763ee8.setContent(html_126e772460beee97e39db3869b7bc58f);
+            
+        
+
+        marker_3b84bd8cfa8ef8e71a6c8a6f91ecadbf.bindPopup(popup_8a1ce9cd2b3c88cedcde5fb9fc763ee8)
+        ;
+
+        
+    
+    
+            marker_3b84bd8cfa8ef8e71a6c8a6f91ecadbf.bindTooltip(
+                `<div>
+                     119296, Россия, Москва, Москва, пр-т Ленинский, 71
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb5340c472e5fa703bd3063449963fea = L.marker(
+                [55.637535, 37.65098],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8bf9f8cd31a15ac5b86aaebf3a606318 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05380b2bc224fa5d6e5e4593fda8bcc6 = $(`<div id="html_05380b2bc224fa5d6e5e4593fda8bcc6" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8bf9f8cd31a15ac5b86aaebf3a606318.setContent(html_05380b2bc224fa5d6e5e4593fda8bcc6);
+            
+        
+
+        marker_bb5340c472e5fa703bd3063449963fea.bindPopup(popup_8bf9f8cd31a15ac5b86aaebf3a606318)
+        ;
+
+        
+    
+    
+            marker_bb5340c472e5fa703bd3063449963fea.bindTooltip(
+                `<div>
+                     115477, Россия, Москва, Москва, ул. Кантемировская, 53 корп. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a518874d0d45f837d2817a955f2ee8b = L.marker(
+                [55.68071, 37.71582],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_25006b7532ae0b311349d8ac8b67fb40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95c7a620d5a5350c8e80608bcc7c9604 = $(`<div id="html_95c7a620d5a5350c8e80608bcc7c9604" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_25006b7532ae0b311349d8ac8b67fb40.setContent(html_95c7a620d5a5350c8e80608bcc7c9604);
+            
+        
+
+        marker_1a518874d0d45f837d2817a955f2ee8b.bindPopup(popup_25006b7532ae0b311349d8ac8b67fb40)
+        ;
+
+        
+    
+    
+            marker_1a518874d0d45f837d2817a955f2ee8b.bindTooltip(
+                `<div>
+                     109388, Россия, Москва, Москва, ул. Гурьянова, 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3edc7269a6774829c8495aea91c73fe7 = L.marker(
+                [55.83123, 37.44603],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b20cf6c64d825705f392718119dd0f47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_822cc8004768819dffbe0068290399e1 = $(`<div id="html_822cc8004768819dffbe0068290399e1" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b20cf6c64d825705f392718119dd0f47.setContent(html_822cc8004768819dffbe0068290399e1);
+            
+        
+
+        marker_3edc7269a6774829c8495aea91c73fe7.bindPopup(popup_b20cf6c64d825705f392718119dd0f47)
+        ;
+
+        
+    
+    
+            marker_3edc7269a6774829c8495aea91c73fe7.bindTooltip(
+                `<div>
+                     125362, Россия, Москва, Москва, ул. Вишневая, 9 к.1, пом.118А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b0db0c1e9c18c2cc67df9311936f1d2 = L.marker(
+                [55.72561, 37.765697],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_16cb1c1f633f41623faf722d204ee40c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d73ad17fee28e1a97163ada4f8a22a3 = $(`<div id="html_1d73ad17fee28e1a97163ada4f8a22a3" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_16cb1c1f633f41623faf722d204ee40c.setContent(html_1d73ad17fee28e1a97163ada4f8a22a3);
+            
+        
+
+        marker_4b0db0c1e9c18c2cc67df9311936f1d2.bindPopup(popup_16cb1c1f633f41623faf722d204ee40c)
+        ;
+
+        
+    
+    
+            marker_4b0db0c1e9c18c2cc67df9311936f1d2.bindTooltip(
+                `<div>
+                     109428, Россия, Москва, Москва, Рязанский пр-т, 49, корпус 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2645c6a06321e6e324776cf8f68e561d = L.marker(
+                [55.683132, 37.58545],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_026b1ac4a03bacf93f7ab6978d6b6419 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c67015825546f3d146debff6787417 = $(`<div id="html_c5c67015825546f3d146debff6787417" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_026b1ac4a03bacf93f7ab6978d6b6419.setContent(html_c5c67015825546f3d146debff6787417);
+            
+        
+
+        marker_2645c6a06321e6e324776cf8f68e561d.bindPopup(popup_026b1ac4a03bacf93f7ab6978d6b6419)
+        ;
+
+        
+    
+    
+            marker_2645c6a06321e6e324776cf8f68e561d.bindTooltip(
+                `<div>
+                     117218, Россия, Москва, Москва, ул. Дмитрия Ульянова, 36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baad6dd91904feb829eb8f74228b8a4a = L.marker(
+                [55.78276, 37.664513],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b0e4a3acca59ce3eec47f693a0d3daad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006e02fb19efab6f0d76b38c1050df08 = $(`<div id="html_006e02fb19efab6f0d76b38c1050df08" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b0e4a3acca59ce3eec47f693a0d3daad.setContent(html_006e02fb19efab6f0d76b38c1050df08);
+            
+        
+
+        marker_baad6dd91904feb829eb8f74228b8a4a.bindPopup(popup_b0e4a3acca59ce3eec47f693a0d3daad)
+        ;
+
+        
+    
+    
+            marker_baad6dd91904feb829eb8f74228b8a4a.bindTooltip(
+                `<div>
+                     107140, Россия, Москва, Москва, ул. Верхняя Красносельская, 17А, стр. 1Б, 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd8a0a612c76128525221f1cd74b7427 = L.marker(
+                [55.57981, 37.67131],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_a2c2abe888ac64077129c688f1f5d921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c35d1a39114f445d455754b61737812 = $(`<div id="html_6c35d1a39114f445d455754b61737812" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_a2c2abe888ac64077129c688f1f5d921.setContent(html_6c35d1a39114f445d455754b61737812);
+            
+        
+
+        marker_bd8a0a612c76128525221f1cd74b7427.bindPopup(popup_a2c2abe888ac64077129c688f1f5d921)
+        ;
+
+        
+    
+    
+            marker_bd8a0a612c76128525221f1cd74b7427.bindTooltip(
+                `<div>
+                     115547, Россия, Москва, Москва, ул. Михневская, 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92dd46c6d38aef4ea6045934edc53153 = L.marker(
+                [55.746925, 37.6795],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_202c6701b1f0cc0749daabe2f072b3ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85223d29f5fa6b42ad0f7c1a61c9ab9d = $(`<div id="html_85223d29f5fa6b42ad0f7c1a61c9ab9d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_202c6701b1f0cc0749daabe2f072b3ab.setContent(html_85223d29f5fa6b42ad0f7c1a61c9ab9d);
+            
+        
+
+        marker_92dd46c6d38aef4ea6045934edc53153.bindPopup(popup_202c6701b1f0cc0749daabe2f072b3ab)
+        ;
+
+        
+    
+    
+            marker_92dd46c6d38aef4ea6045934edc53153.bindTooltip(
+                `<div>
+                     105120, Россия, Москва, Москва, ул. Сергия Радонежского, 29/31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cbdc11f33e07c00b12caba86a8e94a1 = L.marker(
+                [55.871918, 37.51578],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_9a86ec053ad6fb80ab91909ac53c4c7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cb431f2ddabe62f4f99a788f2988a0c = $(`<div id="html_6cb431f2ddabe62f4f99a788f2988a0c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_9a86ec053ad6fb80ab91909ac53c4c7a.setContent(html_6cb431f2ddabe62f4f99a788f2988a0c);
+            
+        
+
+        marker_4cbdc11f33e07c00b12caba86a8e94a1.bindPopup(popup_9a86ec053ad6fb80ab91909ac53c4c7a)
+        ;
+
+        
+    
+    
+            marker_4cbdc11f33e07c00b12caba86a8e94a1.bindTooltip(
+                `<div>
+                     125635, Россия, Москва, Москва, ул. Весенняя, 3, корп. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c80a3e6552d08b26ebf56b61cbcd9c43 = L.marker(
+                [55.759933, 37.553253],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bc6d8f7df474d23db5ee03316fe6f763 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58d8a9b0df9755d7320545741e58a28 = $(`<div id="html_a58d8a9b0df9755d7320545741e58a28" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bc6d8f7df474d23db5ee03316fe6f763.setContent(html_a58d8a9b0df9755d7320545741e58a28);
+            
+        
+
+        marker_c80a3e6552d08b26ebf56b61cbcd9c43.bindPopup(popup_bc6d8f7df474d23db5ee03316fe6f763)
+        ;
+
+        
+    
+    
+            marker_c80a3e6552d08b26ebf56b61cbcd9c43.bindTooltip(
+                `<div>
+                     123100, Россия, Москва, Москва, ул. Анатолия Живова, 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a74f12a1bd4cfa887587ee9660e3790 = L.marker(
+                [55.79088, 37.81896],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_357a428f1c2786702a433bec14f1ad03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43380c4b190b8b54fc1747a90153f0d8 = $(`<div id="html_43380c4b190b8b54fc1747a90153f0d8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_357a428f1c2786702a433bec14f1ad03.setContent(html_43380c4b190b8b54fc1747a90153f0d8);
+            
+        
+
+        marker_8a74f12a1bd4cfa887587ee9660e3790.bindPopup(popup_357a428f1c2786702a433bec14f1ad03)
+        ;
+
+        
+    
+    
+            marker_8a74f12a1bd4cfa887587ee9660e3790.bindTooltip(
+                `<div>
+                     105203, Россия, Москва, Москва, ул. Нижняя Первомайская, 68/7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66432513db88c65ee2222bb49a15218a = L.marker(
+                [55.6666, 37.552147],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_7414cacb052bf30615031613a50ea855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b9c8bb4d9e5d2480ef709d590e574d8 = $(`<div id="html_7b9c8bb4d9e5d2480ef709d590e574d8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_7414cacb052bf30615031613a50ea855.setContent(html_7b9c8bb4d9e5d2480ef709d590e574d8);
+            
+        
+
+        marker_66432513db88c65ee2222bb49a15218a.bindPopup(popup_7414cacb052bf30615031613a50ea855)
+        ;
+
+        
+    
+    
+            marker_66432513db88c65ee2222bb49a15218a.bindTooltip(
+                `<div>
+                     117420, Россия, Москва, Москва, ул. Профсоюзная, 45, вход с левого торца
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c59017f0d705540ea5a5c6d0f37da1b0 = L.marker(
+                [55.810215, 37.78048],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c2167ddae069ac575d4f14a09cb917a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f1cfc5b41e044c1136828aad3276b4b = $(`<div id="html_3f1cfc5b41e044c1136828aad3276b4b" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c2167ddae069ac575d4f14a09cb917a0.setContent(html_3f1cfc5b41e044c1136828aad3276b4b);
+            
+        
+
+        marker_c59017f0d705540ea5a5c6d0f37da1b0.bindPopup(popup_c2167ddae069ac575d4f14a09cb917a0)
+        ;
+
+        
+    
+    
+            marker_c59017f0d705540ea5a5c6d0f37da1b0.bindTooltip(
+                `<div>
+                     107241, Россия, Москва, Москва, ш. Щелковское, 29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f77bb971e0deada594ff7ca2914f67fe = L.marker(
+                [55.81786, 37.814285],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c2f5d98137e0dbc8d0b82000386a8c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9ca83235bac2b0a943e9f1a97cad4f0 = $(`<div id="html_e9ca83235bac2b0a943e9f1a97cad4f0" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c2f5d98137e0dbc8d0b82000386a8c4d.setContent(html_e9ca83235bac2b0a943e9f1a97cad4f0);
+            
+        
+
+        marker_f77bb971e0deada594ff7ca2914f67fe.bindPopup(popup_c2f5d98137e0dbc8d0b82000386a8c4d)
+        ;
+
+        
+    
+    
+            marker_f77bb971e0deada594ff7ca2914f67fe.bindTooltip(
+                `<div>
+                     107207, Россия, Москва, Москва, ул. Байкальская, 37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf72a3ec26384a25e77c7ea735e32b6 = L.marker(
+                [55.78192, 37.59627],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d0990a36cfd756c18180c128831b10e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bea6d8c809fd3e2cd17dfc8c7c22eb17 = $(`<div id="html_bea6d8c809fd3e2cd17dfc8c7c22eb17" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d0990a36cfd756c18180c128831b10e6.setContent(html_bea6d8c809fd3e2cd17dfc8c7c22eb17);
+            
+        
+
+        marker_8bf72a3ec26384a25e77c7ea735e32b6.bindPopup(popup_d0990a36cfd756c18180c128831b10e6)
+        ;
+
+        
+    
+    
+            marker_8bf72a3ec26384a25e77c7ea735e32b6.bindTooltip(
+                `<div>
+                     127055, Россия, Москва, Москва, ул. Новослободская, 31, стр.4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f4f7b3ffc50bc9e46a6412ec0721aa8 = L.marker(
+                [55.771015, 37.628567],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_35be22c793647e606e0e873ceac6a719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c205bf3f89a7ebf5b079bbcee0fdbb2 = $(`<div id="html_6c205bf3f89a7ebf5b079bbcee0fdbb2" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_35be22c793647e606e0e873ceac6a719.setContent(html_6c205bf3f89a7ebf5b079bbcee0fdbb2);
+            
+        
+
+        marker_2f4f7b3ffc50bc9e46a6412ec0721aa8.bindPopup(popup_35be22c793647e606e0e873ceac6a719)
+        ;
+
+        
+    
+    
+            marker_2f4f7b3ffc50bc9e46a6412ec0721aa8.bindTooltip(
+                `<div>
+                     127051, Россия, Москва, Москва, пер. Большой Сухаревский, 15, стр.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9f9dfd2a0a9a8ee023fb80269c0a907 = L.marker(
+                [55.5838, 37.59147],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_4852fb8962a6f14d9de614864bc86d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47fa8127f945356056b200eefccb67ef = $(`<div id="html_47fa8127f945356056b200eefccb67ef" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_4852fb8962a6f14d9de614864bc86d90.setContent(html_47fa8127f945356056b200eefccb67ef);
+            
+        
+
+        marker_f9f9dfd2a0a9a8ee023fb80269c0a907.bindPopup(popup_4852fb8962a6f14d9de614864bc86d90)
+        ;
+
+        
+    
+    
+            marker_f9f9dfd2a0a9a8ee023fb80269c0a907.bindTooltip(
+                `<div>
+                     117405, Россия, Москва, Москва, ш. Варшавское, 160, корп. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46bfbe75c2ab12e03afad8a6c165bcd8 = L.marker(
+                [55.882565, 37.553017],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_705f7eea6fa5056fcbd5e74ad95310aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46c9d4a3894dd11635c8a46eb0d96c4b = $(`<div id="html_46c9d4a3894dd11635c8a46eb0d96c4b" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_705f7eea6fa5056fcbd5e74ad95310aa.setContent(html_46c9d4a3894dd11635c8a46eb0d96c4b);
+            
+        
+
+        marker_46bfbe75c2ab12e03afad8a6c165bcd8.bindPopup(popup_705f7eea6fa5056fcbd5e74ad95310aa)
+        ;
+
+        
+    
+    
+            marker_46bfbe75c2ab12e03afad8a6c165bcd8.bindTooltip(
+                `<div>
+                     127591, Россия, Москва, Москва, ш. Дмитровское, 102. корп. 2, стр. 3, 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_732d04daaa8603c9c751ad12e4d3ed49 = L.marker(
+                [55.89137, 37.58552],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_70ee9197ccb967d2fdb43bd14c93e09e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c140d797941b896f09fa9036ce6cc3fc = $(`<div id="html_c140d797941b896f09fa9036ce6cc3fc" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_70ee9197ccb967d2fdb43bd14c93e09e.setContent(html_c140d797941b896f09fa9036ce6cc3fc);
+            
+        
+
+        marker_732d04daaa8603c9c751ad12e4d3ed49.bindPopup(popup_70ee9197ccb967d2fdb43bd14c93e09e)
+        ;
+
+        
+    
+    
+            marker_732d04daaa8603c9c751ad12e4d3ed49.bindTooltip(
+                `<div>
+                     127576, Россия, Москва, Москва, ш.  Алтуфьевское, 85
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a14241e8cb831cccf2bc2c7698ce91b = L.marker(
+                [55.80374, 37.753147],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_be6cb41527cc306c6298f03822e99d3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d4bda75e73ae06cd31511694d6d16bb = $(`<div id="html_4d4bda75e73ae06cd31511694d6d16bb" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_be6cb41527cc306c6298f03822e99d3b.setContent(html_4d4bda75e73ae06cd31511694d6d16bb);
+            
+        
+
+        marker_6a14241e8cb831cccf2bc2c7698ce91b.bindPopup(popup_be6cb41527cc306c6298f03822e99d3b)
+        ;
+
+        
+    
+    
+            marker_6a14241e8cb831cccf2bc2c7698ce91b.bindTooltip(
+                `<div>
+                     105122, Россия, Москва, Москва, ш. Щелковское, 3 стр. 1, 183
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08e9cd395e63dc400d90c4f8bd47421a = L.marker(
+                [55.817722, 37.59037],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b4a99b21012197d17ec1b14b928aa0fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19385e4e6c7189d4d16a66f1ed3bbf94 = $(`<div id="html_19385e4e6c7189d4d16a66f1ed3bbf94" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b4a99b21012197d17ec1b14b928aa0fa.setContent(html_19385e4e6c7189d4d16a66f1ed3bbf94);
+            
+        
+
+        marker_08e9cd395e63dc400d90c4f8bd47421a.bindPopup(popup_b4a99b21012197d17ec1b14b928aa0fa)
+        ;
+
+        
+    
+    
+            marker_08e9cd395e63dc400d90c4f8bd47421a.bindTooltip(
+                `<div>
+                     127254, Россия, Москва, Москва, ул. Добролюбова, 21А, корп.А, 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4eeca79cfdd6bb0860b3ffe80dce7d0 = L.marker(
+                [55.634087, 37.62822],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d7938bd0f00e96e0b142e93383c97e5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41cf5293717348d06d6c53f1fad79fe2 = $(`<div id="html_41cf5293717348d06d6c53f1fad79fe2" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d7938bd0f00e96e0b142e93383c97e5c.setContent(html_41cf5293717348d06d6c53f1fad79fe2);
+            
+        
+
+        marker_f4eeca79cfdd6bb0860b3ffe80dce7d0.bindPopup(popup_d7938bd0f00e96e0b142e93383c97e5c)
+        ;
+
+        
+    
+    
+            marker_f4eeca79cfdd6bb0860b3ffe80dce7d0.bindTooltip(
+                `<div>
+                     115516, Россия, Москва, Москва, ул. Промышленная, 11 стр. 3, пом. 1, 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bee9822ab82569c19d19e7378f4218f = L.marker(
+                [55.90075, 37.39593],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d1596da78c6c7295e58055b1ec9a8a5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d6d0a0bdf078b25edbd353183e7d67 = $(`<div id="html_c2d6d0a0bdf078b25edbd353183e7d67" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d1596da78c6c7295e58055b1ec9a8a5b.setContent(html_c2d6d0a0bdf078b25edbd353183e7d67);
+            
+        
+
+        marker_4bee9822ab82569c19d19e7378f4218f.bindPopup(popup_d1596da78c6c7295e58055b1ec9a8a5b)
+        ;
+
+        
+    
+    
+            marker_4bee9822ab82569c19d19e7378f4218f.bindTooltip(
+                `<div>
+                     125466, Россия, Москва, Москва, Новокуркинское ш., 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75097695d42c1f877aa356f467a97335 = L.marker(
+                [55.61249, 37.703712],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_001a2878dc656f6f52f6e4df108d4592 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e68b3f87d24c6c426b025afe4d9b82 = $(`<div id="html_51e68b3f87d24c6c426b025afe4d9b82" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_001a2878dc656f6f52f6e4df108d4592.setContent(html_51e68b3f87d24c6c426b025afe4d9b82);
+            
+        
+
+        marker_75097695d42c1f877aa356f467a97335.bindPopup(popup_001a2878dc656f6f52f6e4df108d4592)
+        ;
+
+        
+    
+    
+            marker_75097695d42c1f877aa356f467a97335.bindTooltip(
+                `<div>
+                     115551, Россия, Москва, Москва, ул. Домодедовская, 20, корп.3, первый офисный подъезд за почтой
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_139cc54ed9a4583ae4c406ca055eb82c = L.marker(
+                [55.688297, 37.85499],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ff823217786eb52b6b83f33a39a6e848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70771520e3e022ef5f4ce6e2448b5707 = $(`<div id="html_70771520e3e022ef5f4ce6e2448b5707" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ff823217786eb52b6b83f33a39a6e848.setContent(html_70771520e3e022ef5f4ce6e2448b5707);
+            
+        
+
+        marker_139cc54ed9a4583ae4c406ca055eb82c.bindPopup(popup_ff823217786eb52b6b83f33a39a6e848)
+        ;
+
+        
+    
+    
+            marker_139cc54ed9a4583ae4c406ca055eb82c.bindTooltip(
+                `<div>
+                     109156, Россия, Москва, Москва, ул. Генерала Кузнецова, 18, корп. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_211839b7f11d669f22dce8ef7aafe89e = L.marker(
+                [55.741207, 37.588917],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_9ef73cee801c6606e6e84535e1238d4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75c46bf536dd20c9718fc4de74eb8694 = $(`<div id="html_75c46bf536dd20c9718fc4de74eb8694" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_9ef73cee801c6606e6e84535e1238d4f.setContent(html_75c46bf536dd20c9718fc4de74eb8694);
+            
+        
+
+        marker_211839b7f11d669f22dce8ef7aafe89e.bindPopup(popup_9ef73cee801c6606e6e84535e1238d4f)
+        ;
+
+        
+    
+    
+            marker_211839b7f11d669f22dce8ef7aafe89e.bindTooltip(
+                `<div>
+                     Адрес, Россия, Москва, Москва, Малый Левшинский пер., 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8109c86d5dd7cd6ba031ed52e3b3857 = L.marker(
+                [55.840633, 37.530178],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_a9624b6f3615ca06dd372061dc728923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38f281c526a45374a7b567e659821273 = $(`<div id="html_38f281c526a45374a7b567e659821273" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_a9624b6f3615ca06dd372061dc728923.setContent(html_38f281c526a45374a7b567e659821273);
+            
+        
+
+        marker_f8109c86d5dd7cd6ba031ed52e3b3857.bindPopup(popup_a9624b6f3615ca06dd372061dc728923)
+        ;
+
+        
+    
+    
+            marker_f8109c86d5dd7cd6ba031ed52e3b3857.bindTooltip(
+                `<div>
+                     125008, Россия, Москва, Москва, пр. Черепановых, 36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04981de5970162bb20a2fd240b45b2a2 = L.marker(
+                [55.79196, 37.45654],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ed532bb40371318eb5a4dd4fdab941c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f9909f0b40e2e5665ee581832fcc1bd = $(`<div id="html_7f9909f0b40e2e5665ee581832fcc1bd" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ed532bb40371318eb5a4dd4fdab941c2.setContent(html_7f9909f0b40e2e5665ee581832fcc1bd);
+            
+        
+
+        marker_04981de5970162bb20a2fd240b45b2a2.bindPopup(popup_ed532bb40371318eb5a4dd4fdab941c2)
+        ;
+
+        
+    
+    
+            marker_04981de5970162bb20a2fd240b45b2a2.bindTooltip(
+                `<div>
+                     123098, Россия, Москва, Москва, ул. Живописная, 30к3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf6cdc8874d3e7887ecfbfc804877af3 = L.marker(
+                [55.810024, 37.578197],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_5cf03efdafc54aced9bfaf40e917456a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1067577c67cbe66cd24027db4cd283f = $(`<div id="html_c1067577c67cbe66cd24027db4cd283f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_5cf03efdafc54aced9bfaf40e917456a.setContent(html_c1067577c67cbe66cd24027db4cd283f);
+            
+        
+
+        marker_bf6cdc8874d3e7887ecfbfc804877af3.bindPopup(popup_5cf03efdafc54aced9bfaf40e917456a)
+        ;
+
+        
+    
+    
+            marker_bf6cdc8874d3e7887ecfbfc804877af3.bindTooltip(
+                `<div>
+                     127422, Россия, Москва, Москва, пр. Дмитровский, 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_366366ddfd26d010946f3b25ac56688d = L.marker(
+                [55.661472, 37.487255],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c905602bcc621087352c568c5b4230c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d81aca3c895f89c00d771b1e88568ac = $(`<div id="html_8d81aca3c895f89c00d771b1e88568ac" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c905602bcc621087352c568c5b4230c2.setContent(html_8d81aca3c895f89c00d771b1e88568ac);
+            
+        
+
+        marker_366366ddfd26d010946f3b25ac56688d.bindPopup(popup_c905602bcc621087352c568c5b4230c2)
+        ;
+
+        
+    
+    
+            marker_366366ddfd26d010946f3b25ac56688d.bindTooltip(
+                `<div>
+                     119526, Россия, Москва, Москва, ул. 26-ти Бакинских комиссаров, 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf1e258413cae95b83ce84cae8eecfc9 = L.marker(
+                [55.63117, 37.517372],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_89f0e5524de13c109029c9bf4b1ca737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_213b704669ed41c41e6ba5b891d7554b = $(`<div id="html_213b704669ed41c41e6ba5b891d7554b" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_89f0e5524de13c109029c9bf4b1ca737.setContent(html_213b704669ed41c41e6ba5b891d7554b);
+            
+        
+
+        marker_bf1e258413cae95b83ce84cae8eecfc9.bindPopup(popup_89f0e5524de13c109029c9bf4b1ca737)
+        ;
+
+        
+    
+    
+            marker_bf1e258413cae95b83ce84cae8eecfc9.bindTooltip(
+                `<div>
+                     117321, Россия, Москва, Москва, ул. Профсоюзная, 126 корп. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62a2db206bd82f1f02d87f965ada233c = L.marker(
+                [55.793175, 37.400997],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d5201bcaf6bba88aa27e11ff976363e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27cc738b0b9c7a319578b1d60c7a8735 = $(`<div id="html_27cc738b0b9c7a319578b1d60c7a8735" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d5201bcaf6bba88aa27e11ff976363e6.setContent(html_27cc738b0b9c7a319578b1d60c7a8735);
+            
+        
+
+        marker_62a2db206bd82f1f02d87f965ada233c.bindPopup(popup_d5201bcaf6bba88aa27e11ff976363e6)
+        ;
+
+        
+    
+    
+            marker_62a2db206bd82f1f02d87f965ada233c.bindTooltip(
+                `<div>
+                     123458, Россия, Москва, Москва, ул. Твардовского, 12 копр.3 под. 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_345fb5f2b6c8ab54c79fa479fa8c8e12 = L.marker(
+                [55.877354, 37.628864],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_28601f8bf158236278ae293b8497465e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a22088f181d2433d1b2adfcda728a5b9 = $(`<div id="html_a22088f181d2433d1b2adfcda728a5b9" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_28601f8bf158236278ae293b8497465e.setContent(html_a22088f181d2433d1b2adfcda728a5b9);
+            
+        
+
+        marker_345fb5f2b6c8ab54c79fa479fa8c8e12.bindPopup(popup_28601f8bf158236278ae293b8497465e)
+        ;
+
+        
+    
+    
+            marker_345fb5f2b6c8ab54c79fa479fa8c8e12.bindTooltip(
+                `<div>
+                     127081, Россия, Москва, Москва, ул. Молодцова, 23, к.2,  помещение XIX
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81692efd71adf644885bec3f99ef1ca8 = L.marker(
+                [55.741474, 37.535828],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_027af8db1a7665c93ee2531cf2709234 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be02224dfa8def83956d7eab147682a8 = $(`<div id="html_be02224dfa8def83956d7eab147682a8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_027af8db1a7665c93ee2531cf2709234.setContent(html_be02224dfa8def83956d7eab147682a8);
+            
+        
+
+        marker_81692efd71adf644885bec3f99ef1ca8.bindPopup(popup_027af8db1a7665c93ee2531cf2709234)
+        ;
+
+        
+    
+    
+            marker_81692efd71adf644885bec3f99ef1ca8.bindTooltip(
+                `<div>
+                     121165, Россия, Москва, Москва, Кутузовский пр-т, 30, пом.540
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe456dbc733c262848182664a02d7ca9 = L.marker(
+                [55.834805, 37.664967],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c1cf3fbb55f26e94e58cc5be109b2883 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a07c3978fc7ee94bbbdf8d2475ddb25c = $(`<div id="html_a07c3978fc7ee94bbbdf8d2475ddb25c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c1cf3fbb55f26e94e58cc5be109b2883.setContent(html_a07c3978fc7ee94bbbdf8d2475ddb25c);
+            
+        
+
+        marker_fe456dbc733c262848182664a02d7ca9.bindPopup(popup_c1cf3fbb55f26e94e58cc5be109b2883)
+        ;
+
+        
+    
+    
+            marker_fe456dbc733c262848182664a02d7ca9.bindTooltip(
+                `<div>
+                     129128, Россия, Москва, Москва, Будайский проезд, 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46b867da172becaf9335f1d39d5ce64b = L.marker(
+                [55.779778, 37.706894],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_6da7b66b6598d6ee60476df6e5d171a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e450f80294e79c7981c6bb39c7ff209b = $(`<div id="html_e450f80294e79c7981c6bb39c7ff209b" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_6da7b66b6598d6ee60476df6e5d171a9.setContent(html_e450f80294e79c7981c6bb39c7ff209b);
+            
+        
+
+        marker_46b867da172becaf9335f1d39d5ce64b.bindPopup(popup_6da7b66b6598d6ee60476df6e5d171a9)
+        ;
+
+        
+    
+    
+            marker_46b867da172becaf9335f1d39d5ce64b.bindTooltip(
+                `<div>
+                     105094, Россия, Москва, Москва, ул. Семеновская набережная, 3/1 корп. 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d7930933b851b1084ed15265b415f41 = L.marker(
+                [55.670647, 37.77059],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_167d576e94789d172da593996173813f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eba3db6e2bda8c4cb433b1854cd8c21 = $(`<div id="html_1eba3db6e2bda8c4cb433b1854cd8c21" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_167d576e94789d172da593996173813f.setContent(html_1eba3db6e2bda8c4cb433b1854cd8c21);
+            
+        
+
+        marker_6d7930933b851b1084ed15265b415f41.bindPopup(popup_167d576e94789d172da593996173813f)
+        ;
+
+        
+    
+    
+            marker_6d7930933b851b1084ed15265b415f41.bindTooltip(
+                `<div>
+                     109559, Россия, Москва, Москва, ул. Цимлянская, 20
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b25ee9d24f41221a0e33d3dac23841fc = L.marker(
+                [55.621212, 37.7456],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_705ba7deea8fc15617e95429995a5d83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b538016e0be474b31404e41ba08b1a6c = $(`<div id="html_b538016e0be474b31404e41ba08b1a6c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_705ba7deea8fc15617e95429995a5d83.setContent(html_b538016e0be474b31404e41ba08b1a6c);
+            
+        
+
+        marker_b25ee9d24f41221a0e33d3dac23841fc.bindPopup(popup_705ba7deea8fc15617e95429995a5d83)
+        ;
+
+        
+    
+    
+            marker_b25ee9d24f41221a0e33d3dac23841fc.bindTooltip(
+                `<div>
+                     115580, Россия, Москва, Москва, ул. Шипиловская, 58, к.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d98e75ddc594a5699ec50a3a570b0da8 = L.marker(
+                [55.751858, 37.66663],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_4a2edaec09e53d6ab38df440db8e50b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbabf0d877c560002f28b7cbcf995c76 = $(`<div id="html_bbabf0d877c560002f28b7cbcf995c76" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_4a2edaec09e53d6ab38df440db8e50b4.setContent(html_bbabf0d877c560002f28b7cbcf995c76);
+            
+        
+
+        marker_d98e75ddc594a5699ec50a3a570b0da8.bindPopup(popup_4a2edaec09e53d6ab38df440db8e50b4)
+        ;
+
+        
+    
+    
+            marker_d98e75ddc594a5699ec50a3a570b0da8.bindTooltip(
+                `<div>
+                     105120, Россия, Москва, Москва, пер. Костомаровский, 3 стр.4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04a6e3fb373b53ddfec6d6b77c513fc2 = L.marker(
+                [55.699158, 37.806076],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_7fe43eea83bc5e849a6326e4e15961ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757546ef21fcd2ef4a5f67ee214adfda = $(`<div id="html_757546ef21fcd2ef4a5f67ee214adfda" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_7fe43eea83bc5e849a6326e4e15961ff.setContent(html_757546ef21fcd2ef4a5f67ee214adfda);
+            
+        
+
+        marker_04a6e3fb373b53ddfec6d6b77c513fc2.bindPopup(popup_7fe43eea83bc5e849a6326e4e15961ff)
+        ;
+
+        
+    
+    
+            marker_04a6e3fb373b53ddfec6d6b77c513fc2.bindTooltip(
+                `<div>
+                     109472, Россия, Москва, Москва, ул. Ташкентская, 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be9581dec630b7c6cea902bfcaa08ca1 = L.marker(
+                [55.753124, 37.77969],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_518b8ef6e0e717556cbd8aa3ab5c2a49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6895390c7f2faf9db7a59a8b0d8fa37 = $(`<div id="html_a6895390c7f2faf9db7a59a8b0d8fa37" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_518b8ef6e0e717556cbd8aa3ab5c2a49.setContent(html_a6895390c7f2faf9db7a59a8b0d8fa37);
+            
+        
+
+        marker_be9581dec630b7c6cea902bfcaa08ca1.bindPopup(popup_518b8ef6e0e717556cbd8aa3ab5c2a49)
+        ;
+
+        
+    
+    
+            marker_be9581dec630b7c6cea902bfcaa08ca1.bindTooltip(
+                `<div>
+                     111401, Россия, Москва, Москва, ул.1я Владимирская, 29 корпус 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_235c5d0d417d4bff4c15e4b242664379 = L.marker(
+                [55.602985, 37.529266],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ad98fea060f2599e19a4bfb16d36bdcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd6919173208cf16b5a61de8db4a17e6 = $(`<div id="html_fd6919173208cf16b5a61de8db4a17e6" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ad98fea060f2599e19a4bfb16d36bdcf.setContent(html_fd6919173208cf16b5a61de8db4a17e6);
+            
+        
+
+        marker_235c5d0d417d4bff4c15e4b242664379.bindPopup(popup_ad98fea060f2599e19a4bfb16d36bdcf)
+        ;
+
+        
+    
+    
+            marker_235c5d0d417d4bff4c15e4b242664379.bindTooltip(
+                `<div>
+                     117588, Россия, Москва, Москва, ул. Тарусская, 18, корп.1, 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be285486519f8437434ea7a5e8dbd53f = L.marker(
+                [55.88704, 37.693123],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_2c0b6b9a64f388cb8b3410b3a9460613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9eab8ce30f7302b867e0a167d5b231f = $(`<div id="html_e9eab8ce30f7302b867e0a167d5b231f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_2c0b6b9a64f388cb8b3410b3a9460613.setContent(html_e9eab8ce30f7302b867e0a167d5b231f);
+            
+        
+
+        marker_be285486519f8437434ea7a5e8dbd53f.bindPopup(popup_2c0b6b9a64f388cb8b3410b3a9460613)
+        ;
+
+        
+    
+    
+            marker_be285486519f8437434ea7a5e8dbd53f.bindTooltip(
+                `<div>
+                     129336, Россия, Москва, Москва, ул. Стартовая, 23 корп. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2c5875eb1143f9f3230ef61329789ff = L.marker(
+                [55.709618, 37.89578],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_64fdc8a4f03cfa5748117ec446b22ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a200cbdb505a8723d09e61f83ad7ebf0 = $(`<div id="html_a200cbdb505a8723d09e61f83ad7ebf0" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_64fdc8a4f03cfa5748117ec446b22ea9.setContent(html_a200cbdb505a8723d09e61f83ad7ebf0);
+            
+        
+
+        marker_d2c5875eb1143f9f3230ef61329789ff.bindPopup(popup_64fdc8a4f03cfa5748117ec446b22ea9)
+        ;
+
+        
+    
+    
+            marker_d2c5875eb1143f9f3230ef61329789ff.bindTooltip(
+                `<div>
+                     111675, Россия, Москва, Москва, ул. Дмитриевского, 23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d7baf0414bf3e7f331668027f479e0d = L.marker(
+                [55.64437, 37.62628],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d4c76eadc67ee820d8bbcc05538e54ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab98fccd681b52c97527c79a38b82be = $(`<div id="html_2ab98fccd681b52c97527c79a38b82be" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d4c76eadc67ee820d8bbcc05538e54ac.setContent(html_2ab98fccd681b52c97527c79a38b82be);
+            
+        
+
+        marker_8d7baf0414bf3e7f331668027f479e0d.bindPopup(popup_d4c76eadc67ee820d8bbcc05538e54ac)
+        ;
+
+        
+    
+    
+            marker_8d7baf0414bf3e7f331668027f479e0d.bindTooltip(
+                `<div>
+                     615201, Россия, Москва, Москва, 1-й Варшавский проезд, 2 стр. 9а
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6cd6ef4d8d0ae30a553af8478bef054 = L.marker(
+                [55.75933, 37.61034],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_3ed3442796514f9bd722953c8b5522de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_646fb1c7e7fe1cb47054c989bf9734ee = $(`<div id="html_646fb1c7e7fe1cb47054c989bf9734ee" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_3ed3442796514f9bd722953c8b5522de.setContent(html_646fb1c7e7fe1cb47054c989bf9734ee);
+            
+        
+
+        marker_c6cd6ef4d8d0ae30a553af8478bef054.bindPopup(popup_3ed3442796514f9bd722953c8b5522de)
+        ;
+
+        
+    
+    
+            marker_c6cd6ef4d8d0ae30a553af8478bef054.bindTooltip(
+                `<div>
+                     125009, Россия, Москва, Москва, ул. Тверская, 9, стр.7, 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f612858d4117f65dc2d12e8d5307acb = L.marker(
+                [55.733086, 37.855427],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8526b84ff9274b5ae6f7dedbcfb4c547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e62676f5d3150557658ef0f440ea91fc = $(`<div id="html_e62676f5d3150557658ef0f440ea91fc" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8526b84ff9274b5ae6f7dedbcfb4c547.setContent(html_e62676f5d3150557658ef0f440ea91fc);
+            
+        
+
+        marker_3f612858d4117f65dc2d12e8d5307acb.bindPopup(popup_8526b84ff9274b5ae6f7dedbcfb4c547)
+        ;
+
+        
+    
+    
+            marker_3f612858d4117f65dc2d12e8d5307acb.bindTooltip(
+                `<div>
+                     111673, Россия, Москва, Москва, ул. Новокосинская, 8/1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e343ecb67ba877a15379fdd9683dd49 = L.marker(
+                [55.871685, 37.59635],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_9ccac42a59f2fcdcc06f3f40c4a5275e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff88ff50afffbd0bbefaa25cdda39c16 = $(`<div id="html_ff88ff50afffbd0bbefaa25cdda39c16" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_9ccac42a59f2fcdcc06f3f40c4a5275e.setContent(html_ff88ff50afffbd0bbefaa25cdda39c16);
+            
+        
+
+        marker_5e343ecb67ba877a15379fdd9683dd49.bindPopup(popup_9ccac42a59f2fcdcc06f3f40c4a5275e)
+        ;
+
+        
+    
+    
+            marker_5e343ecb67ba877a15379fdd9683dd49.bindTooltip(
+                `<div>
+                     127566, Россия, Москва, Москва, ул. Римского-Корсакова, 8, под.8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_457648b2effce3a3de79746e0904bdaf = L.marker(
+                [55.790497, 37.77114],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_18b7ee44466bee98f0f83fc58251368f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4239576b4f91fa954effb6f58968f481 = $(`<div id="html_4239576b4f91fa954effb6f58968f481" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_18b7ee44466bee98f0f83fc58251368f.setContent(html_4239576b4f91fa954effb6f58968f481);
+            
+        
+
+        marker_457648b2effce3a3de79746e0904bdaf.bindPopup(popup_18b7ee44466bee98f0f83fc58251368f)
+        ;
+
+        
+    
+    
+            marker_457648b2effce3a3de79746e0904bdaf.bindTooltip(
+                `<div>
+                     105037, Россия, Москва, Москва, ул. Первомайская, 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6afa1fcaae9550921c0879f752deda8d = L.marker(
+                [55.79736, 37.490353],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_893895a0bc3c07e56253588bde186060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f01ad0c74a2f2662ff0985a649e1cf = $(`<div id="html_e5f01ad0c74a2f2662ff0985a649e1cf" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_893895a0bc3c07e56253588bde186060.setContent(html_e5f01ad0c74a2f2662ff0985a649e1cf);
+            
+        
+
+        marker_6afa1fcaae9550921c0879f752deda8d.bindPopup(popup_893895a0bc3c07e56253588bde186060)
+        ;
+
+        
+    
+    
+            marker_6afa1fcaae9550921c0879f752deda8d.bindTooltip(
+                `<div>
+                     123060, Россия, Москва, Москва, ул. Маршала Рыбалко, 9, пом.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82219e03eca48ce65ea7ca0784470f61 = L.marker(
+                [55.707367, 37.67881],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ea28ce5d4ebe99bdedbe53fd503114aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f78c1794350fbd1bdf414efc36487d9 = $(`<div id="html_3f78c1794350fbd1bdf414efc36487d9" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ea28ce5d4ebe99bdedbe53fd503114aa.setContent(html_3f78c1794350fbd1bdf414efc36487d9);
+            
+        
+
+        marker_82219e03eca48ce65ea7ca0784470f61.bindPopup(popup_ea28ce5d4ebe99bdedbe53fd503114aa)
+        ;
+
+        
+    
+    
+            marker_82219e03eca48ce65ea7ca0784470f61.bindTooltip(
+                `<div>
+                     115193, Россия, Москва, Москва, ул. 6-я Кожуховская, 29б, под.3, 22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c6b7c98411673dbd947f805e94574af = L.marker(
+                [55.716408, 37.67844],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_47031d9b54f211cd86d98d6126667444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b685457988d2ac2b24331707e397fbac = $(`<div id="html_b685457988d2ac2b24331707e397fbac" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_47031d9b54f211cd86d98d6126667444.setContent(html_b685457988d2ac2b24331707e397fbac);
+            
+        
+
+        marker_1c6b7c98411673dbd947f805e94574af.bindPopup(popup_47031d9b54f211cd86d98d6126667444)
+        ;
+
+        
+    
+    
+            marker_1c6b7c98411673dbd947f805e94574af.bindTooltip(
+                `<div>
+                     115088, Россия, Москва, Москва, ул. Шарикоподшипниковская, 13 стр. А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca3e31612238f60c4f6aea51ae2bd5d9 = L.marker(
+                [55.801243, 37.799644],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bc043c91701a509f4438120b0b943e56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_864dbb05c39cd0f34ae1b31aa9d89a27 = $(`<div id="html_864dbb05c39cd0f34ae1b31aa9d89a27" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bc043c91701a509f4438120b0b943e56.setContent(html_864dbb05c39cd0f34ae1b31aa9d89a27);
+            
+        
+
+        marker_ca3e31612238f60c4f6aea51ae2bd5d9.bindPopup(popup_bc043c91701a509f4438120b0b943e56)
+        ;
+
+        
+    
+    
+            marker_ca3e31612238f60c4f6aea51ae2bd5d9.bindTooltip(
+                `<div>
+                     105264, Россия, Москва, Москва, ул. 9-я Парковая, 52, корп.1 подвал с торца дома
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7a51cb8fc996ad85781a2719c0108ae = L.marker(
+                [55.8243, 37.566254],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_35ca1dc0e5ac7eca67a9b5770202f61d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e3eb1f43828ac1d42509c06761547c = $(`<div id="html_13e3eb1f43828ac1d42509c06761547c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_35ca1dc0e5ac7eca67a9b5770202f61d.setContent(html_13e3eb1f43828ac1d42509c06761547c);
+            
+        
+
+        marker_b7a51cb8fc996ad85781a2719c0108ae.bindPopup(popup_35ca1dc0e5ac7eca67a9b5770202f61d)
+        ;
+
+        
+    
+    
+            marker_b7a51cb8fc996ad85781a2719c0108ae.bindTooltip(
+                `<div>
+                     127434, Россия, Москва, Москва, ул. Красностуденческий проезд, 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09c3592ca8bdcda585aaa97291cadcfb = L.marker(
+                [55.679092, 37.756424],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_e6117d2d066e98bb9a0477c993994066 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a5e7c8783e8b487c07a8046cc21ff85 = $(`<div id="html_6a5e7c8783e8b487c07a8046cc21ff85" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_e6117d2d066e98bb9a0477c993994066.setContent(html_6a5e7c8783e8b487c07a8046cc21ff85);
+            
+        
+
+        marker_09c3592ca8bdcda585aaa97291cadcfb.bindPopup(popup_e6117d2d066e98bb9a0477c993994066)
+        ;
+
+        
+    
+    
+            marker_09c3592ca8bdcda585aaa97291cadcfb.bindTooltip(
+                `<div>
+                     109386, Россия, Москва, Москва, ул. Таганрогская, 11 корп. 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_815ca33f9e05b1b22a2b3dbc325a0e5b = L.marker(
+                [55.894726, 37.6123],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_afa424ab21835457f3c553e8c481a7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1671fe1a960b09431ca5a978c1ac956f = $(`<div id="html_1671fe1a960b09431ca5a978c1ac956f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_afa424ab21835457f3c553e8c481a7e7.setContent(html_1671fe1a960b09431ca5a978c1ac956f);
+            
+        
+
+        marker_815ca33f9e05b1b22a2b3dbc325a0e5b.bindPopup(popup_afa424ab21835457f3c553e8c481a7e7)
+        ;
+
+        
+    
+    
+            marker_815ca33f9e05b1b22a2b3dbc325a0e5b.bindTooltip(
+                `<div>
+                     127560, Россия, Москва, Москва, ул. Коненкова, 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37dc968a0bb3d3155957a6ccdabfa1c5 = L.marker(
+                [55.750923, 37.5897],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_a29f250c5f8a858b70939681d0a0af69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea444acc20634882881541c9d9aaf43f = $(`<div id="html_ea444acc20634882881541c9d9aaf43f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_a29f250c5f8a858b70939681d0a0af69.setContent(html_ea444acc20634882881541c9d9aaf43f);
+            
+        
+
+        marker_37dc968a0bb3d3155957a6ccdabfa1c5.bindPopup(popup_a29f250c5f8a858b70939681d0a0af69)
+        ;
+
+        
+    
+    
+            marker_37dc968a0bb3d3155957a6ccdabfa1c5.bindTooltip(
+                `<div>
+                     119002, Россия, Москва, Москва, Большой Николопесковский пер., .13 под.3, 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_113e98c015ef6fdee5281f9168f2911c = L.marker(
+                [55.66516, 37.613953],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_09143a4a5ccc5e78287ee3235d11dd9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_904669abf3944bcb61c0f095ae377325 = $(`<div id="html_904669abf3944bcb61c0f095ae377325" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_09143a4a5ccc5e78287ee3235d11dd9f.setContent(html_904669abf3944bcb61c0f095ae377325);
+            
+        
+
+        marker_113e98c015ef6fdee5281f9168f2911c.bindPopup(popup_09143a4a5ccc5e78287ee3235d11dd9f)
+        ;
+
+        
+    
+    
+            marker_113e98c015ef6fdee5281f9168f2911c.bindTooltip(
+                `<div>
+                     117452, Россия, Москва, Москва, Симферопольский проезд, 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d165548f790632e599d6dbd061ba34c = L.marker(
+                [55.709293, 37.764736],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_3acc1bc6a035f4c5f919d920f1c6509d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_135da3f748b8b2214999d4ee7211d9bb = $(`<div id="html_135da3f748b8b2214999d4ee7211d9bb" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_3acc1bc6a035f4c5f919d920f1c6509d.setContent(html_135da3f748b8b2214999d4ee7211d9bb);
+            
+        
+
+        marker_1d165548f790632e599d6dbd061ba34c.bindPopup(popup_3acc1bc6a035f4c5f919d920f1c6509d)
+        ;
+
+        
+    
+    
+            marker_1d165548f790632e599d6dbd061ba34c.bindTooltip(
+                `<div>
+                     109457, Россия, Москва, Москва, ул. Зеленодольская, 36, корп.2, 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3757d0fb672bcd2f7878071dd38f77a4 = L.marker(
+                [55.79439, 37.695683],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_68fa09021ffceee34c717f5d65c94754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b6b08f7c9afbed7551ce2eac6baf923 = $(`<div id="html_5b6b08f7c9afbed7551ce2eac6baf923" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_68fa09021ffceee34c717f5d65c94754.setContent(html_5b6b08f7c9afbed7551ce2eac6baf923);
+            
+        
+
+        marker_3757d0fb672bcd2f7878071dd38f77a4.bindPopup(popup_68fa09021ffceee34c717f5d65c94754)
+        ;
+
+        
+    
+    
+            marker_3757d0fb672bcd2f7878071dd38f77a4.bindTooltip(
+                `<div>
+                     107076, Россия, Москва, Москва, ул. Стромынка, 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a0fe0ea1c2294d650677cfc42adc283 = L.marker(
+                [55.626568, 37.31251],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_a10e444241ccf0d1e8486de1143cffa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdeb0075e6c45c439b540a6ba045416d = $(`<div id="html_bdeb0075e6c45c439b540a6ba045416d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_a10e444241ccf0d1e8486de1143cffa7.setContent(html_bdeb0075e6c45c439b540a6ba045416d);
+            
+        
+
+        marker_0a0fe0ea1c2294d650677cfc42adc283.bindPopup(popup_a10e444241ccf0d1e8486de1143cffa7)
+        ;
+
+        
+    
+    
+            marker_0a0fe0ea1c2294d650677cfc42adc283.bindTooltip(
+                `<div>
+                     142750, Россия, Москва, Москва, ул. Авиаконструктора Петлякова, 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2dc46e1c904606a23d4b1a1ca4eca0f = L.marker(
+                [55.75835, 37.6318],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_05bbed3782babcdbde0a5e36f6ff98eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48ae04858775532d91401ef76b8de117 = $(`<div id="html_48ae04858775532d91401ef76b8de117" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_05bbed3782babcdbde0a5e36f6ff98eb.setContent(html_48ae04858775532d91401ef76b8de117);
+            
+        
+
+        marker_d2dc46e1c904606a23d4b1a1ca4eca0f.bindPopup(popup_05bbed3782babcdbde0a5e36f6ff98eb)
+        ;
+
+        
+    
+    
+            marker_d2dc46e1c904606a23d4b1a1ca4eca0f.bindTooltip(
+                `<div>
+                     101000, Россия, Москва, Москва, пер. Лучников, 4/2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a16450a89dc51287e2318ef88aebc3a = L.marker(
+                [55.65558, 37.731155],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_0903b0f372c0523213f2988555362eeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ab1b65f64e572328b90823b60d03ef5 = $(`<div id="html_6ab1b65f64e572328b90823b60d03ef5" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_0903b0f372c0523213f2988555362eeb.setContent(html_6ab1b65f64e572328b90823b60d03ef5);
+            
+        
+
+        marker_4a16450a89dc51287e2318ef88aebc3a.bindPopup(popup_0903b0f372c0523213f2988555362eeb)
+        ;
+
+        
+    
+    
+            marker_4a16450a89dc51287e2318ef88aebc3a.bindTooltip(
+                `<div>
+                     109651, Россия, Москва, Москва, ул. Перерва, 19, стр.5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba62d306e02f6b386b8295bb0c2b9d31 = L.marker(
+                [55.605865, 37.66474],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_2cd5cbcd071d2cf34a4e71eee2aa9168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba5fefbe19cd2617f185257a1c0268f7 = $(`<div id="html_ba5fefbe19cd2617f185257a1c0268f7" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_2cd5cbcd071d2cf34a4e71eee2aa9168.setContent(html_ba5fefbe19cd2617f185257a1c0268f7);
+            
+        
+
+        marker_ba62d306e02f6b386b8295bb0c2b9d31.bindPopup(popup_2cd5cbcd071d2cf34a4e71eee2aa9168)
+        ;
+
+        
+    
+    
+            marker_ba62d306e02f6b386b8295bb0c2b9d31.bindTooltip(
+                `<div>
+                     115404, Россия, Москва, Москва, ул. 6-я Радиальная, 3 корп. 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50109f3aba59b89734e710c4f6f8301e = L.marker(
+                [55.76443, 37.523968],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_89c59d972409102802b19ec725be5f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2dc1448ed604192b403a55bdf9d236c = $(`<div id="html_a2dc1448ed604192b403a55bdf9d236c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_89c59d972409102802b19ec725be5f26.setContent(html_a2dc1448ed604192b403a55bdf9d236c);
+            
+        
+
+        marker_50109f3aba59b89734e710c4f6f8301e.bindPopup(popup_89c59d972409102802b19ec725be5f26)
+        ;
+
+        
+    
+    
+            marker_50109f3aba59b89734e710c4f6f8301e.bindTooltip(
+                `<div>
+                     123290, Россия, Москва, Москва, пр. 1-й Магистральный, 12, стр.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f1e996bcbfa73203313d2491a4272e2 = L.marker(
+                [55.68983, 37.492985],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_cfbddb11e7a3cc7d2439aea236684273 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff6970cae8c556ae084158331da6b64 = $(`<div id="html_bff6970cae8c556ae084158331da6b64" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_cfbddb11e7a3cc7d2439aea236684273.setContent(html_bff6970cae8c556ae084158331da6b64);
+            
+        
+
+        marker_8f1e996bcbfa73203313d2491a4272e2.bindPopup(popup_cfbddb11e7a3cc7d2439aea236684273)
+        ;
+
+        
+    
+    
+            marker_8f1e996bcbfa73203313d2491a4272e2.bindTooltip(
+                `<div>
+                     119607, Россия, Москва, Москва, ул. Раменки, 23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62852084b357908d23015386b6086edd = L.marker(
+                [55.791115, 37.71263],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_19d7d08b727e6c806a97c51e0e3f08c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5f349321c52af6e7d37d37bc3df1d54 = $(`<div id="html_a5f349321c52af6e7d37d37bc3df1d54" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_19d7d08b727e6c806a97c51e0e3f08c5.setContent(html_a5f349321c52af6e7d37d37bc3df1d54);
+            
+        
+
+        marker_62852084b357908d23015386b6086edd.bindPopup(popup_19d7d08b727e6c806a97c51e0e3f08c5)
+        ;
+
+        
+    
+    
+            marker_62852084b357908d23015386b6086edd.bindTooltip(
+                `<div>
+                     107061, Россия, Москва, Москва, ул. 9-я Рота, 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee989b1de1c6a982124e76b3bbf814d6 = L.marker(
+                [55.641193, 37.501682],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ac704a3534ecde893cc906a01bf87b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b018ac47e852b21bda4d6e8ce343e900 = $(`<div id="html_b018ac47e852b21bda4d6e8ce343e900" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ac704a3534ecde893cc906a01bf87b19.setContent(html_b018ac47e852b21bda4d6e8ce343e900);
+            
+        
+
+        marker_ee989b1de1c6a982124e76b3bbf814d6.bindPopup(popup_ac704a3534ecde893cc906a01bf87b19)
+        ;
+
+        
+    
+    
+            marker_ee989b1de1c6a982124e76b3bbf814d6.bindTooltip(
+                `<div>
+                     117437, Россия, Москва, Москва, ул. Островитянова, 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b686b3161f8a7a8c951f47bbb632711e = L.marker(
+                [55.675236, 37.48635],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f4e6398a8022326f272eaab7d8bc5a1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43095c6aab361e1ecdd7a3afe58cd490 = $(`<div id="html_43095c6aab361e1ecdd7a3afe58cd490" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f4e6398a8022326f272eaab7d8bc5a1d.setContent(html_43095c6aab361e1ecdd7a3afe58cd490);
+            
+        
+
+        marker_b686b3161f8a7a8c951f47bbb632711e.bindPopup(popup_f4e6398a8022326f272eaab7d8bc5a1d)
+        ;
+
+        
+    
+    
+            marker_b686b3161f8a7a8c951f47bbb632711e.bindTooltip(
+                `<div>
+                     119454, Россия, Москва, Москва, ул. Лобачевского, 88
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c073c04c40e37dc251a1122587044ef = L.marker(
+                [55.737846, 37.72137],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bb15746aeb5f92235e4768337bcfd279 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e941b92809c93afaa90647f74054b8 = $(`<div id="html_c1e941b92809c93afaa90647f74054b8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bb15746aeb5f92235e4768337bcfd279.setContent(html_c1e941b92809c93afaa90647f74054b8);
+            
+        
+
+        marker_2c073c04c40e37dc251a1122587044ef.bindPopup(popup_bb15746aeb5f92235e4768337bcfd279)
+        ;
+
+        
+    
+    
+            marker_2c073c04c40e37dc251a1122587044ef.bindTooltip(
+                `<div>
+                     111024, Россия, Москва, Москва, ул. Авиамоторная, 67/8, стр.3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac75c705b70e5e4d768194fa5ee5fc05 = L.marker(
+                [55.767197, 37.6055],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d0ea5dd787120af0bbcac4e3f9686db7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af3ee24d49ba9daab326d44d98613e14 = $(`<div id="html_af3ee24d49ba9daab326d44d98613e14" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d0ea5dd787120af0bbcac4e3f9686db7.setContent(html_af3ee24d49ba9daab326d44d98613e14);
+            
+        
+
+        marker_ac75c705b70e5e4d768194fa5ee5fc05.bindPopup(popup_d0ea5dd787120af0bbcac4e3f9686db7)
+        ;
+
+        
+    
+    
+            marker_ac75c705b70e5e4d768194fa5ee5fc05.bindTooltip(
+                `<div>
+                     127006, Россия, Москва, Москва, пер. Настасьинский, 8, стр.2, 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4c99d603ff7a33f5af5528b845e3e60 = L.marker(
+                [55.738884, 37.572056],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f6bc86b1daf7a42e3acb2dcad80cb8d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d07363f859999037eef6d6d7674c02e5 = $(`<div id="html_d07363f859999037eef6d6d7674c02e5" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f6bc86b1daf7a42e3acb2dcad80cb8d8.setContent(html_d07363f859999037eef6d6d7674c02e5);
+            
+        
+
+        marker_b4c99d603ff7a33f5af5528b845e3e60.bindPopup(popup_f6bc86b1daf7a42e3acb2dcad80cb8d8)
+        ;
+
+        
+    
+    
+            marker_b4c99d603ff7a33f5af5528b845e3e60.bindTooltip(
+                `<div>
+                     119121, Россия, Москва, Москва, пер. 2-й Вражский, 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9a886a0c2b96e262a2256b514de23df = L.marker(
+                [55.845097, 37.4363],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_cdb0c1a2352c408be95dae08e66b611d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5d39367eb076567a8dbec979c64ddc8 = $(`<div id="html_c5d39367eb076567a8dbec979c64ddc8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_cdb0c1a2352c408be95dae08e66b611d.setContent(html_c5d39367eb076567a8dbec979c64ddc8);
+            
+        
+
+        marker_d9a886a0c2b96e262a2256b514de23df.bindPopup(popup_cdb0c1a2352c408be95dae08e66b611d)
+        ;
+
+        
+    
+    
+            marker_d9a886a0c2b96e262a2256b514de23df.bindTooltip(
+                `<div>
+                     125363, Россия, Москва, Москва, ул. Нелидовская, 21, корп.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_209f6cbfdd1094fee7edc2c3f1ffedd7 = L.marker(
+                [55.842514, 37.486904],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_6c86eb73276fba0b9861ffcf22891888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de0df47deba2b937740a6b66b95c86e6 = $(`<div id="html_de0df47deba2b937740a6b66b95c86e6" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_6c86eb73276fba0b9861ffcf22891888.setContent(html_de0df47deba2b937740a6b66b95c86e6);
+            
+        
+
+        marker_209f6cbfdd1094fee7edc2c3f1ffedd7.bindPopup(popup_6c86eb73276fba0b9861ffcf22891888)
+        ;
+
+        
+    
+    
+            marker_209f6cbfdd1094fee7edc2c3f1ffedd7.bindTooltip(
+                `<div>
+                     125212, Россия, Москва, Москва, б-р Кронштадтский, 7а, Цокольный этаж, 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9255ad8c4fe91464d7a52a2988a33f4d = L.marker(
+                [55.793816, 37.564674],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_e4fa837b19b75aa314aa814af3968510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc174059b0cf9bc5be3803e273b4bb0f = $(`<div id="html_cc174059b0cf9bc5be3803e273b4bb0f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_e4fa837b19b75aa314aa814af3968510.setContent(html_cc174059b0cf9bc5be3803e273b4bb0f);
+            
+        
+
+        marker_9255ad8c4fe91464d7a52a2988a33f4d.bindPopup(popup_e4fa837b19b75aa314aa814af3968510)
+        ;
+
+        
+    
+    
+            marker_9255ad8c4fe91464d7a52a2988a33f4d.bindTooltip(
+                `<div>
+                     027083, Россия, Москва, Москва, ул. Верхняя Масловка, 14С2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d188b3a23a4034bf524ab01d95ca054b = L.marker(
+                [55.860897, 37.67551],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_27232ae54121c3c54cd58e85291c7521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a83c815cc3a25509a25dfbf60b91c953 = $(`<div id="html_a83c815cc3a25509a25dfbf60b91c953" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_27232ae54121c3c54cd58e85291c7521.setContent(html_a83c815cc3a25509a25dfbf60b91c953);
+            
+        
+
+        marker_d188b3a23a4034bf524ab01d95ca054b.bindPopup(popup_27232ae54121c3c54cd58e85291c7521)
+        ;
+
+        
+    
+    
+            marker_d188b3a23a4034bf524ab01d95ca054b.bindTooltip(
+                `<div>
+                     129344, Россия, Москва, Москва, ул. Коминтерна, 4, 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b17492a1d650b949e987555de5854c99 = L.marker(
+                [55.758263, 37.400433],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bfb5efee7594efd5719bcd9591853fce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab2f8fcad30ce1a0c280c5a0860bd36d = $(`<div id="html_ab2f8fcad30ce1a0c280c5a0860bd36d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bfb5efee7594efd5719bcd9591853fce.setContent(html_ab2f8fcad30ce1a0c280c5a0860bd36d);
+            
+        
+
+        marker_b17492a1d650b949e987555de5854c99.bindPopup(popup_bfb5efee7594efd5719bcd9591853fce)
+        ;
+
+        
+    
+    
+            marker_b17492a1d650b949e987555de5854c99.bindTooltip(
+                `<div>
+                     121609, Россия, Москва, Москва, ул. Осенняя, 4, корп.1, П45.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec6b5b4918fda02710874c096acb9eea = L.marker(
+                [55.80329, 37.51227],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_d417b30931f2f92dc114eabd033de374 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66ee8ea8f44cd0ac4154cdd4e56d0f47 = $(`<div id="html_66ee8ea8f44cd0ac4154cdd4e56d0f47" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_d417b30931f2f92dc114eabd033de374.setContent(html_66ee8ea8f44cd0ac4154cdd4e56d0f47);
+            
+        
+
+        marker_ec6b5b4918fda02710874c096acb9eea.bindPopup(popup_d417b30931f2f92dc114eabd033de374)
+        ;
+
+        
+    
+    
+            marker_ec6b5b4918fda02710874c096acb9eea.bindTooltip(
+                `<div>
+                     125057, Россия, Москва, Москва, пр-т Ленинградский, 75а
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0770ac8ff30d9f49f375618baac65a24 = L.marker(
+                [55.79436, 37.609344],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_31cd83c24d2ae6db904a3494ad01b973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0024eb6304b1d0371cfa07fc285a0502 = $(`<div id="html_0024eb6304b1d0371cfa07fc285a0502" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_31cd83c24d2ae6db904a3494ad01b973.setContent(html_0024eb6304b1d0371cfa07fc285a0502);
+            
+        
+
+        marker_0770ac8ff30d9f49f375618baac65a24.bindPopup(popup_31cd83c24d2ae6db904a3494ad01b973)
+        ;
+
+        
+    
+    
+            marker_0770ac8ff30d9f49f375618baac65a24.bindTooltip(
+                `<div>
+                     127018, Россия, Москва, Москва, ул. 1-я Ямская, 3/7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6009efd714599d9b40abd9669fb9e8f2 = L.marker(
+                [55.626087, 37.66627],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_eb44890247effecef6ceeb84b1d81188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c26d391a9f8e18dd9f51ba538e9b44d = $(`<div id="html_1c26d391a9f8e18dd9f51ba538e9b44d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_eb44890247effecef6ceeb84b1d81188.setContent(html_1c26d391a9f8e18dd9f51ba538e9b44d);
+            
+        
+
+        marker_6009efd714599d9b40abd9669fb9e8f2.bindPopup(popup_eb44890247effecef6ceeb84b1d81188)
+        ;
+
+        
+    
+    
+            marker_6009efd714599d9b40abd9669fb9e8f2.bindTooltip(
+                `<div>
+                     115304, Россия, Москва, Москва, ул. Луганская, 5, 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678323ba01bc00aaf513935ff4634883 = L.marker(
+                [55.725643, 37.583508],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_6bdb7032873aa7e995009229dcdc6eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f563b74359a7f626bf4d94dd576fbe4e = $(`<div id="html_f563b74359a7f626bf4d94dd576fbe4e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_6bdb7032873aa7e995009229dcdc6eaa.setContent(html_f563b74359a7f626bf4d94dd576fbe4e);
+            
+        
+
+        marker_678323ba01bc00aaf513935ff4634883.bindPopup(popup_6bdb7032873aa7e995009229dcdc6eaa)
+        ;
+
+        
+    
+    
+            marker_678323ba01bc00aaf513935ff4634883.bindTooltip(
+                `<div>
+                     119146, Россия, Москва, Москва, наб. Фрунзенская, 30, стр.2 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eee6b2115e7ae089ca753fb748d4e073 = L.marker(
+                [55.609787, 37.605133],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_eba394d13fd00cedf53d7dec1252e782 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8761572ea8191fd081631118cd5cb29 = $(`<div id="html_a8761572ea8191fd081631118cd5cb29" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_eba394d13fd00cedf53d7dec1252e782.setContent(html_a8761572ea8191fd081631118cd5cb29);
+            
+        
+
+        marker_eee6b2115e7ae089ca753fb748d4e073.bindPopup(popup_eba394d13fd00cedf53d7dec1252e782)
+        ;
+
+        
+    
+    
+            marker_eee6b2115e7ae089ca753fb748d4e073.bindTooltip(
+                `<div>
+                     117519, Россия, Москва, Москва, ул. Кировоградская, ТЦ Электронный рай, 1г-7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0ab961627c60ae6ee4c916786006cc = L.marker(
+                [55.64615, 37.534046],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8b61dae957b6682609b75fdb7a99191a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c4bd05eed258385d17a70915cc8ff13 = $(`<div id="html_7c4bd05eed258385d17a70915cc8ff13" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8b61dae957b6682609b75fdb7a99191a.setContent(html_7c4bd05eed258385d17a70915cc8ff13);
+            
+        
+
+        marker_cf0ab961627c60ae6ee4c916786006cc.bindPopup(popup_8b61dae957b6682609b75fdb7a99191a)
+        ;
+
+        
+    
+    
+            marker_cf0ab961627c60ae6ee4c916786006cc.bindTooltip(
+                `<div>
+                     117342, Россия, Москва, Москва, ул. Генерала Антонова, 3а, 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f554e6cf648753aa3b7ebfa8162c3af7 = L.marker(
+                [55.658085, 37.637913],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_5589d0bf1717c3eead5dc4b37c2106c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fed922f3e40d69e20cf71aa80c09d017 = $(`<div id="html_fed922f3e40d69e20cf71aa80c09d017" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_5589d0bf1717c3eead5dc4b37c2106c6.setContent(html_fed922f3e40d69e20cf71aa80c09d017);
+            
+        
+
+        marker_f554e6cf648753aa3b7ebfa8162c3af7.bindPopup(popup_5589d0bf1717c3eead5dc4b37c2106c6)
+        ;
+
+        
+    
+    
+            marker_f554e6cf648753aa3b7ebfa8162c3af7.bindTooltip(
+                `<div>
+                     115201, Россия, Москва, Москва, ш. Каширское, 22, корп.3, стр.11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f50d8cdbadec6b53d37a140c31482fb4 = L.marker(
+                [55.866047, 37.442307],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_923c0b9b0f02a3cbf338fcbf865c4135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11c0ffa715676244b910c43509078c46 = $(`<div id="html_11c0ffa715676244b910c43509078c46" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_923c0b9b0f02a3cbf338fcbf865c4135.setContent(html_11c0ffa715676244b910c43509078c46);
+            
+        
+
+        marker_f50d8cdbadec6b53d37a140c31482fb4.bindPopup(popup_923c0b9b0f02a3cbf338fcbf865c4135)
+        ;
+
+        
+    
+    
+            marker_f50d8cdbadec6b53d37a140c31482fb4.bindTooltip(
+                `<div>
+                     125481, Россия, Москва, Москва, ул. Свободы, 89, корп.5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99f6f2dc820b3d0f9f88b6b132fe1864 = L.marker(
+                [55.735577, 37.39701],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_aa02b2d714dc958d4d7541fb06400ada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b636f60032daf4d398093d534e656ae0 = $(`<div id="html_b636f60032daf4d398093d534e656ae0" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_aa02b2d714dc958d4d7541fb06400ada.setContent(html_b636f60032daf4d398093d534e656ae0);
+            
+        
+
+        marker_99f6f2dc820b3d0f9f88b6b132fe1864.bindPopup(popup_aa02b2d714dc958d4d7541fb06400ada)
+        ;
+
+        
+    
+    
+            marker_99f6f2dc820b3d0f9f88b6b132fe1864.bindTooltip(
+                `<div>
+                     121351, Россия, Москва, Москва, ул. Молодогвардейская, 54, корп.4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e7a5af5672060534cd2b2c39dd824c1 = L.marker(
+                [55.617313, 37.510815],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f752ae33260ec3d42e13002632624103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9218736c61f8d7238bdcd22637538b93 = $(`<div id="html_9218736c61f8d7238bdcd22637538b93" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f752ae33260ec3d42e13002632624103.setContent(html_9218736c61f8d7238bdcd22637538b93);
+            
+        
+
+        marker_3e7a5af5672060534cd2b2c39dd824c1.bindPopup(popup_f752ae33260ec3d42e13002632624103)
+        ;
+
+        
+    
+    
+            marker_3e7a5af5672060534cd2b2c39dd824c1.bindTooltip(
+                `<div>
+                     117574, Россия, Москва, Москва, пр-т Новоясеневский , 1Б, стр. 4 павильон  А-3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6208009c86e19aab2e9fe7f29f6803d = L.marker(
+                [55.718616, 37.608913],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_28704310fb3e05a8e097f3bfaede27e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_011b16f5b34c75b2c360e3c10892757b = $(`<div id="html_011b16f5b34c75b2c360e3c10892757b" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_28704310fb3e05a8e097f3bfaede27e1.setContent(html_011b16f5b34c75b2c360e3c10892757b);
+            
+        
+
+        marker_a6208009c86e19aab2e9fe7f29f6803d.bindPopup(popup_28704310fb3e05a8e097f3bfaede27e1)
+        ;
+
+        
+    
+    
+            marker_a6208009c86e19aab2e9fe7f29f6803d.bindTooltip(
+                `<div>
+                     115419, Россия, Москва, Москва, ул. Шаболовка, 38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_739323de340e693ed4651f4441950326 = L.marker(
+                [55.77945, 37.72999],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_c4ccdd69b6a8b891f76bf86efdc7dd66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e948ea8dbc55aeb28c8223c9d7ab74e = $(`<div id="html_8e948ea8dbc55aeb28c8223c9d7ab74e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_c4ccdd69b6a8b891f76bf86efdc7dd66.setContent(html_8e948ea8dbc55aeb28c8223c9d7ab74e);
+            
+        
+
+        marker_739323de340e693ed4651f4441950326.bindPopup(popup_c4ccdd69b6a8b891f76bf86efdc7dd66)
+        ;
+
+        
+    
+    
+            marker_739323de340e693ed4651f4441950326.bindTooltip(
+                `<div>
+                     105318, Россия, Москва, Москва, ш. Измайловское, 29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cbed4d311af5b0e224e43ea8433b335 = L.marker(
+                [55.67435, 37.59419],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bae505255ceae34a1bc739bb03ed6d95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4af3d0b48cfe91f43a17feb51753307 = $(`<div id="html_e4af3d0b48cfe91f43a17feb51753307" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bae505255ceae34a1bc739bb03ed6d95.setContent(html_e4af3d0b48cfe91f43a17feb51753307);
+            
+        
+
+        marker_9cbed4d311af5b0e224e43ea8433b335.bindPopup(popup_bae505255ceae34a1bc739bb03ed6d95)
+        ;
+
+        
+    
+    
+            marker_9cbed4d311af5b0e224e43ea8433b335.bindTooltip(
+                `<div>
+                     117186, Россия, Москва, Москва, Нагорный б-р, 5, корп. 2, пом. 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1f259e97160924fe25849252694f874 = L.marker(
+                [55.730904, 37.42853],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_6fe072d03963c2446bf7ae148eea5fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_106d881579a00d333e84a11c02f4db32 = $(`<div id="html_106d881579a00d333e84a11c02f4db32" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_6fe072d03963c2446bf7ae148eea5fc4.setContent(html_106d881579a00d333e84a11c02f4db32);
+            
+        
+
+        marker_f1f259e97160924fe25849252694f874.bindPopup(popup_6fe072d03963c2446bf7ae148eea5fc4)
+        ;
+
+        
+    
+    
+            marker_f1f259e97160924fe25849252694f874.bindTooltip(
+                `<div>
+                     121351, Россия, Москва, Москва, ул. Коцюбинского, 9 кор. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12594209921b6f2fb2029eefee9897a2 = L.marker(
+                [55.7748, 37.617485],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_97cee2890de33710ceb06a8a047a83cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8a036179dd8783b51a91c5c77a39d5e = $(`<div id="html_b8a036179dd8783b51a91c5c77a39d5e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_97cee2890de33710ceb06a8a047a83cd.setContent(html_b8a036179dd8783b51a91c5c77a39d5e);
+            
+        
+
+        marker_12594209921b6f2fb2029eefee9897a2.bindPopup(popup_97cee2890de33710ceb06a8a047a83cd)
+        ;
+
+        
+    
+    
+            marker_12594209921b6f2fb2029eefee9897a2.bindTooltip(
+                `<div>
+                     127473, Россия, Москва, Москва, пер. 1-й Волконский, 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f837368baf37127e8ebf369cdddf4a8b = L.marker(
+                [55.71385, 37.517006],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_3ef95d8fda8494a3fa05a948a52e979b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c3f30e31fb44d9d225084d14e756a6a = $(`<div id="html_8c3f30e31fb44d9d225084d14e756a6a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_3ef95d8fda8494a3fa05a948a52e979b.setContent(html_8c3f30e31fb44d9d225084d14e756a6a);
+            
+        
+
+        marker_f837368baf37127e8ebf369cdddf4a8b.bindPopup(popup_3ef95d8fda8494a3fa05a948a52e979b)
+        ;
+
+        
+    
+    
+            marker_f837368baf37127e8ebf369cdddf4a8b.bindTooltip(
+                `<div>
+                     119330, Россия, Москва, Москва, ул. Университетский проспект, 23 корп.4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd48888dc0c128457337f88ba549c987 = L.marker(
+                [55.86909, 37.46936],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_514d9c6e16eb1a24775a967319b3aea2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b0a45db615c8537e528fe820206ccc8 = $(`<div id="html_3b0a45db615c8537e528fe820206ccc8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_514d9c6e16eb1a24775a967319b3aea2.setContent(html_3b0a45db615c8537e528fe820206ccc8);
+            
+        
+
+        marker_fd48888dc0c128457337f88ba549c987.bindPopup(popup_514d9c6e16eb1a24775a967319b3aea2)
+        ;
+
+        
+    
+    
+            marker_fd48888dc0c128457337f88ba549c987.bindTooltip(
+                `<div>
+                     125445, Россия, Москва, Москва, ул. Смольная, 63Б корп. 1, М06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4e35cd165455e5e3af72f5de0d18755 = L.marker(
+                [55.748734, 37.815266],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_2266f28eb0973b1f257f37df122f2a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0675c5a5a72e08c83a3b980051f3d20a = $(`<div id="html_0675c5a5a72e08c83a3b980051f3d20a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_2266f28eb0973b1f257f37df122f2a3c.setContent(html_0675c5a5a72e08c83a3b980051f3d20a);
+            
+        
+
+        marker_c4e35cd165455e5e3af72f5de0d18755.bindPopup(popup_2266f28eb0973b1f257f37df122f2a3c)
+        ;
+
+        
+    
+    
+            marker_c4e35cd165455e5e3af72f5de0d18755.bindTooltip(
+                `<div>
+                     111396, Россия, Москва, Москва, ул. пр-т Свободный, 26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a672dbfc882a1d5059299b31eee2b156 = L.marker(
+                [55.63283, 37.74765],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f527978e5d001bc62a947fb2e8717867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_740a4976a9f46982bc62966b40569f16 = $(`<div id="html_740a4976a9f46982bc62966b40569f16" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f527978e5d001bc62a947fb2e8717867.setContent(html_740a4976a9f46982bc62966b40569f16);
+            
+        
+
+        marker_a672dbfc882a1d5059299b31eee2b156.bindPopup(popup_f527978e5d001bc62a947fb2e8717867)
+        ;
+
+        
+    
+    
+            marker_a672dbfc882a1d5059299b31eee2b156.bindTooltip(
+                `<div>
+                     115211, Россия, Москва, Москва, ул. Борисовские Пруды, 14 к. 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b28cabc29f1b21924722471208ce786a = L.marker(
+                [55.78161, 37.641727],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_bda6db30928c4b43c60af1ec3463e251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b7ceecb7bbaab8bf0a4909271fa430a = $(`<div id="html_8b7ceecb7bbaab8bf0a4909271fa430a" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_bda6db30928c4b43c60af1ec3463e251.setContent(html_8b7ceecb7bbaab8bf0a4909271fa430a);
+            
+        
+
+        marker_b28cabc29f1b21924722471208ce786a.bindPopup(popup_bda6db30928c4b43c60af1ec3463e251)
+        ;
+
+        
+    
+    
+            marker_b28cabc29f1b21924722471208ce786a.bindTooltip(
+                `<div>
+                     129110, Россия, Москва, Москва, ул. Большая Переяславская, № 5, корпус 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbfcd1c9425d68da8d35221e37d1dda4 = L.marker(
+                [55.649708, 37.46887],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_8d345f0428262f450f37e94726f506f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d406ed2462357d03abf09ed39462bed8 = $(`<div id="html_d406ed2462357d03abf09ed39462bed8" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_8d345f0428262f450f37e94726f506f1.setContent(html_d406ed2462357d03abf09ed39462bed8);
+            
+        
+
+        marker_dbfcd1c9425d68da8d35221e37d1dda4.bindPopup(popup_8d345f0428262f450f37e94726f506f1)
+        ;
+
+        
+    
+    
+            marker_dbfcd1c9425d68da8d35221e37d1dda4.bindTooltip(
+                `<div>
+                     119571, Россия, Москва, Москва, ул. Академика Анохина, 60
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d7110f7e4c8f58a1ceb7e5f170b3f94 = L.marker(
+                [55.67766, 37.51392],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_3ce6084bf1efe14c08bae6d76843453d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66af532b74c65f3e3034b842afd3b9e2 = $(`<div id="html_66af532b74c65f3e3034b842afd3b9e2" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_3ce6084bf1efe14c08bae6d76843453d.setContent(html_66af532b74c65f3e3034b842afd3b9e2);
+            
+        
+
+        marker_5d7110f7e4c8f58a1ceb7e5f170b3f94.bindPopup(popup_3ce6084bf1efe14c08bae6d76843453d)
+        ;
+
+        
+    
+    
+            marker_5d7110f7e4c8f58a1ceb7e5f170b3f94.bindTooltip(
+                `<div>
+                     119415, Россия, Москва, Москва, ул. Кравченко, 11 пом. I-А ком.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1510f348b6bae292f44f652652ac4d84 = L.marker(
+                [55.846325, 37.55619],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_ed03720de2e8b6a46559083ed21872f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ce668470212e38621fdb30e75b18c7f = $(`<div id="html_8ce668470212e38621fdb30e75b18c7f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_ed03720de2e8b6a46559083ed21872f0.setContent(html_8ce668470212e38621fdb30e75b18c7f);
+            
+        
+
+        marker_1510f348b6bae292f44f652652ac4d84.bindPopup(popup_ed03720de2e8b6a46559083ed21872f0)
+        ;
+
+        
+    
+    
+            marker_1510f348b6bae292f44f652652ac4d84.bindTooltip(
+                `<div>
+                     125183, Россия, Москва, Москва, пр. Черепановых, 74
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55255eb7bf238e2d4512cb272cdd851b = L.marker(
+                [55.73519, 37.460144],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_2ca2ca4ccf8c1f10794ce569366698e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee7a319b19fe86b90c4177ad5831fa1 = $(`<div id="html_6ee7a319b19fe86b90c4177ad5831fa1" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_2ca2ca4ccf8c1f10794ce569366698e2.setContent(html_6ee7a319b19fe86b90c4177ad5831fa1);
+            
+        
+
+        marker_55255eb7bf238e2d4512cb272cdd851b.bindPopup(popup_2ca2ca4ccf8c1f10794ce569366698e2)
+        ;
+
+        
+    
+    
+            marker_55255eb7bf238e2d4512cb272cdd851b.bindTooltip(
+                `<div>
+                     121433, Россия, Москва, Москва, ул. Малая Филевская, 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0ddf936bf9c3bbf47730283ca823d0d = L.marker(
+                [55.859978, 37.64902],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_1079325f7384b45675c1789ee8fdcf0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_241f8491edc0d585de6748240d3a0063 = $(`<div id="html_241f8491edc0d585de6748240d3a0063" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_1079325f7384b45675c1789ee8fdcf0b.setContent(html_241f8491edc0d585de6748240d3a0063);
+            
+        
+
+        marker_a0ddf936bf9c3bbf47730283ca823d0d.bindPopup(popup_1079325f7384b45675c1789ee8fdcf0b)
+        ;
+
+        
+    
+    
+            marker_a0ddf936bf9c3bbf47730283ca823d0d.bindTooltip(
+                `<div>
+                     129329, Россия, Москва, Москва, ул. Кольская, 8 стр. 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0edbd4cb6265903c7077bc3d520f5bd = L.marker(
+                [55.607773, 37.71372],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_61fe69966fa0c02dbe958e9721ee6468 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c18897d98718ae5b6a579f1f99f8b04e = $(`<div id="html_c18897d98718ae5b6a579f1f99f8b04e" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_61fe69966fa0c02dbe958e9721ee6468.setContent(html_c18897d98718ae5b6a579f1f99f8b04e);
+            
+        
+
+        marker_f0edbd4cb6265903c7077bc3d520f5bd.bindPopup(popup_61fe69966fa0c02dbe958e9721ee6468)
+        ;
+
+        
+    
+    
+            marker_f0edbd4cb6265903c7077bc3d520f5bd.bindTooltip(
+                `<div>
+                     115582, Россия, Москва, Москва, ш. Каширское, 110 к. 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_203ecdbc1f8e6cc0bc46cf45cddda705 = L.marker(
+                [55.808178, 37.5327],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_7c26f8a5a2e97a9443a1234710b85c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_217b5a3acfed5948512ece8b3b9ad82d = $(`<div id="html_217b5a3acfed5948512ece8b3b9ad82d" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_7c26f8a5a2e97a9443a1234710b85c89.setContent(html_217b5a3acfed5948512ece8b3b9ad82d);
+            
+        
+
+        marker_203ecdbc1f8e6cc0bc46cf45cddda705.bindPopup(popup_7c26f8a5a2e97a9443a1234710b85c89)
+        ;
+
+        
+    
+    
+            marker_203ecdbc1f8e6cc0bc46cf45cddda705.bindTooltip(
+                `<div>
+                     125315, Россия, Москва, Москва, ул. Часовая, 10/1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_866392170560a17b7c509ee4c3b46d37 = L.marker(
+                [55.82369, 37.500942],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f06b570cf880f6b0917a3b8e66acf9dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3005b35b8f8eadab660e04512ae4edd9 = $(`<div id="html_3005b35b8f8eadab660e04512ae4edd9" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f06b570cf880f6b0917a3b8e66acf9dc.setContent(html_3005b35b8f8eadab660e04512ae4edd9);
+            
+        
+
+        marker_866392170560a17b7c509ee4c3b46d37.bindPopup(popup_f06b570cf880f6b0917a3b8e66acf9dc)
+        ;
+
+        
+    
+    
+            marker_866392170560a17b7c509ee4c3b46d37.bindTooltip(
+                `<div>
+                     125130, Россия, Москва, Москва, пр. Старопетровский, 1 строение 2, пав. 47 (ТЦ Baby Store 1-ый этаж)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91953a1153b7325309b5e236a7364017 = L.marker(
+                [55.740395, 37.78438],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_f7497ed6ec048b298ac806c7f1b069d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c4171f527ec6b1711906b9986da38ae = $(`<div id="html_8c4171f527ec6b1711906b9986da38ae" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_f7497ed6ec048b298ac806c7f1b069d1.setContent(html_8c4171f527ec6b1711906b9986da38ae);
+            
+        
+
+        marker_91953a1153b7325309b5e236a7364017.bindPopup(popup_f7497ed6ec048b298ac806c7f1b069d1)
+        ;
+
+        
+    
+    
+            marker_91953a1153b7325309b5e236a7364017.bindTooltip(
+                `<div>
+                     111141, Россия, Москва, Москва, ул. Кусковская, 20 А корп. Г
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19ca12cf78251b5de6cfbe1cf6aeeeb1 = L.marker(
+                [55.68018, 37.556908],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b5cbc2d2188d2a6780c67d2bbc45f664 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a97d3cae81f53e245e782b57a7ab55f3 = $(`<div id="html_a97d3cae81f53e245e782b57a7ab55f3" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b5cbc2d2188d2a6780c67d2bbc45f664.setContent(html_a97d3cae81f53e245e782b57a7ab55f3);
+            
+        
+
+        marker_19ca12cf78251b5de6cfbe1cf6aeeeb1.bindPopup(popup_b5cbc2d2188d2a6780c67d2bbc45f664)
+        ;
+
+        
+    
+    
+            marker_19ca12cf78251b5de6cfbe1cf6aeeeb1.bindTooltip(
+                `<div>
+                     656039, Россия, Москва, Москва, пр-т Нахимовский, 67 корп. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_017b41c0479ddf1e6a7eda8132903a26 = L.marker(
+                [55.794746, 37.689438],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_a69677e9e33b2c930c8a7d76aca9e350 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_754634d468bc51fc21f9bd21afcd340f = $(`<div id="html_754634d468bc51fc21f9bd21afcd340f" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_a69677e9e33b2c930c8a7d76aca9e350.setContent(html_754634d468bc51fc21f9bd21afcd340f);
+            
+        
+
+        marker_017b41c0479ddf1e6a7eda8132903a26.bindPopup(popup_a69677e9e33b2c930c8a7d76aca9e350)
+        ;
+
+        
+    
+    
+            marker_017b41c0479ddf1e6a7eda8132903a26.bindTooltip(
+                `<div>
+                     107014, Россия, Москва, Москва, ул. Малая Остроумовская, 1А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0097cd7b64a74a8c73c8408f1b8f27f = L.marker(
+                [55.71785, 37.64646],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_dff63b65ac81114ffb7fbfde0d5eb0d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9ec43582716ee2eabdfd7c61b2d5c7c = $(`<div id="html_d9ec43582716ee2eabdfd7c61b2d5c7c" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_dff63b65ac81114ffb7fbfde0d5eb0d5.setContent(html_d9ec43582716ee2eabdfd7c61b2d5c7c);
+            
+        
+
+        marker_d0097cd7b64a74a8c73c8408f1b8f27f.bindPopup(popup_dff63b65ac81114ffb7fbfde0d5eb0d5)
+        ;
+
+        
+    
+    
+            marker_d0097cd7b64a74a8c73c8408f1b8f27f.bindTooltip(
+                `<div>
+                     115114, Россия, Москва, Москва, Дербеневская, 24 стр.3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32ef1d1ba0747fdbb69a5ab85eea0884 = L.marker(
+                [55.783184, 37.51399],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_b22f8fc1c079c1febefba9542c06632a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_185473c2d3110d5750e03d886dd50243 = $(`<div id="html_185473c2d3110d5750e03d886dd50243" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_b22f8fc1c079c1febefba9542c06632a.setContent(html_185473c2d3110d5750e03d886dd50243);
+            
+        
+
+        marker_32ef1d1ba0747fdbb69a5ab85eea0884.bindPopup(popup_b22f8fc1c079c1febefba9542c06632a)
+        ;
+
+        
+    
+    
+            marker_32ef1d1ba0747fdbb69a5ab85eea0884.bindTooltip(
+                `<div>
+                     125252, Россия, Москва, Москва, ул.  Куусинена, 11, корп. 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03c0ad8f2acb564dd506960620d18151 = L.marker(
+                [55.772594, 37.684193],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_340494289ed8f73e03d933a84f6ec673 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eea2be35b22815a0698c54d9008ddfe7 = $(`<div id="html_eea2be35b22815a0698c54d9008ddfe7" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_340494289ed8f73e03d933a84f6ec673.setContent(html_eea2be35b22815a0698c54d9008ddfe7);
+            
+        
+
+        marker_03c0ad8f2acb564dd506960620d18151.bindPopup(popup_340494289ed8f73e03d933a84f6ec673)
+        ;
+
+        
+    
+    
+            marker_03c0ad8f2acb564dd506960620d18151.bindTooltip(
+                `<div>
+                     105005, Россия, Москва, Москва, Волховский пер., 2 стр. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_619d55467a1471a293a2ba91fb336d99 = L.marker(
+                [55.770695, 37.65394],
+                {}
+            ).addTo(map_c62119bba96a6bbf7d15842c95995985);
+        
+    
+        var popup_e8b4c7ac0d7431123e9bc06b559cf54b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc217b251e78399f2c27c212cc0752f3 = $(`<div id="html_dc217b251e78399f2c27c212cc0752f3" style="width: 100.0%; height: 100.0%;">['Миасс', 'Златоуст', 'Челябинск', 'Москва']</div>`)[0];
+                popup_e8b4c7ac0d7431123e9bc06b559cf54b.setContent(html_dc217b251e78399f2c27c212cc0752f3);
+            
+        
+
+        marker_619d55467a1471a293a2ba91fb336d99.bindPopup(popup_e8b4c7ac0d7431123e9bc06b559cf54b)
+        ;
+
+        
+    
+    
+            marker_619d55467a1471a293a2ba91fb336d99.bindTooltip(
+                `<div>
+                     107078, Россия, Москва, Москва, Красноворотский пр-д, 3 стр. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
