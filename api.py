@@ -5,7 +5,7 @@ import map
 #https://api-docs.cdek.ru/29923918.html
 url = requests.post('https://api.edu.cdek.ru/v2/oauth/token?parameters', data={'grant_type':'client_credentials',
                                                                                'client_id':'EMscd6r9JnFiQ3bLoyjJY6eM78JrJceI',
-                                                                              'client_secret':'PjLZkKBHEiLK3YsjtNrt3TGNG0ahs3kG'})
+                                                                               'client_secret':'PjLZkKBHEiLK3YsjtNrt3TGNG0ahs3kG'})
 #достаем токен из словаря data, для дальнейшего подключения к сервисам
 data = url.json()
 token = data['access_token']
